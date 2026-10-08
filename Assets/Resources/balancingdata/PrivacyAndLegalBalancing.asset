@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06b3bfccae600c0a71774403c29d23f4, type: 3}
+  m_Name: PrivacyAndLegalBalancing
+  m_EditorClassIdentifier:
+  sheetName: BalancingData_MinisRun
+  worksheetName: PrivacyAndLegal
+  dataArray:
+  - contactadressandroid: https://outfit7.com/contact/android
+    contactadressapple: https://outfit7.com/contact/apple/
+    eulaadress: https://outfit7.com/eula
+    privacyadress: https://outfit7.com/privacy
+    outfit7home: https://outfit7.com
+    otherscopyright: https://outfit7.com/eula/#third-party

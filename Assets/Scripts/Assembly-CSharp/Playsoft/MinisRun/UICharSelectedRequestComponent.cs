@@ -1,0 +1,9 @@
+using Entitas;
+
+namespace Playsoft.MinisRun
+{
+	[UI]
+	public sealed class UICharSelectedRequestComponent : IComponent
+	{
+	}
+}

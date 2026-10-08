@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001e0040b1157ab940ddfa9ddbcf0d82, type: 3}
+  m_Name: TS_StartGame_01
+  m_EditorClassIdentifier:
+  id: ts_startgame_01
+  groupId: ts_startgame
+  trackState: 0
+  repeating: 0
+  targetId: button_go
+  enableLockLayer: 1
+  layerTransparent: 1
+  moveTargetToTop: 1
+  handOptions:
+    enable: 1
+    angle: -130
+    delay: 10
+    setAutmaticly: 1
+    handPrefab: {fileID: 1709254077376921, guid: 7da2024de4348164abd9b85fa675fc1e, type: 2}
+  highlightOptions:
+    enable: 1
+    delay: 3
+    higlightMaterial: {fileID: 2100000, guid: cc80eec5ce1150349a1aa0b804fe6130, type: 2}
+    minScale: 1
+    maxScale: 1.05
+    animSpeed: 1
+  enableTrigger: {fileID: 11400000, guid: 0cac8d681990c424daebf450ee0fc1c5, type: 2}
+  disableTrigger: {fileID: 11400000, guid: ef2f0eee980a39241ac64522ce5cc1f7, type: 2}
+  enableActions:
+  - {fileID: 11400000, guid: 1997484d7b0ee2e4181de5208e71f99e, type: 2}
+  disableActions: []

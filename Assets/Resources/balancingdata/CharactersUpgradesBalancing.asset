@@ -1,0 +1,484 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 912579fd935e433e9bd19664bd0f0121, type: 3}
+  m_Name: CharactersUpgradesBalancing
+  m_EditorClassIdentifier:
+  sheetName: BalancingData_MinisRun
+  worksheetName: CharactersUpgrades
+  dataArray:
+  - id: 0
+    level: 1
+    stamina: 75
+    lifes: 10
+    upgradecostsc: 0
+    upgradecostparts: 0
+    abilityparameter: 1
+    abilityduration: 0
+    abilitychargetime: 0
+  - id: 0
+    level: 2
+    stamina: 100
+    lifes: 10
+    upgradecostsc: 5000
+    upgradecostparts: 10
+    abilityparameter: 1
+    abilityduration: 0
+    abilitychargetime: 0
+  - id: 0
+    level: 3
+    stamina: 125
+    lifes: 10
+    upgradecostsc: 10000
+    upgradecostparts: 25
+    abilityparameter: 1
+    abilityduration: 0
+    abilitychargetime: 0
+  - id: 0
+    level: 4
+    stamina: 150
+    lifes: 10
+    upgradecostsc: 25000
+    upgradecostparts: 50
+    abilityparameter: 1
+    abilityduration: 0
+    abilitychargetime: 0
+  - id: 0
+    level: 5
+    stamina: 175
+    lifes: 10
+    upgradecostsc: 50000
+    upgradecostparts: 75
+    abilityparameter: 1
+    abilityduration: 0
+    abilitychargetime: 0
+  - id: 1
+    level: 1
+    stamina: 65
+    lifes: 10
+    upgradecostsc: 0
+    upgradecostparts: 0
+    abilityparameter: 7
+    abilityduration: 4
+    abilitychargetime: 12
+  - id: 1
+    level: 2
+    stamina: 90
+    lifes: 10
+    upgradecostsc: 5000
+    upgradecostparts: 10
+    abilityparameter: 7
+    abilityduration: 4
+    abilitychargetime: 11.8
+  - id: 1
+    level: 3
+    stamina: 115
+    lifes: 10
+    upgradecostsc: 10000
+    upgradecostparts: 25
+    abilityparameter: 7
+    abilityduration: 4
+    abilitychargetime: 11.6
+  - id: 1
+    level: 4
+    stamina: 140
+    lifes: 10
+    upgradecostsc: 25000
+    upgradecostparts: 50
+    abilityparameter: 7
+    abilityduration: 4
+    abilitychargetime: 11.4
+  - id: 1
+    level: 5
+    stamina: 165
+    lifes: 10
+    upgradecostsc: 50000
+    upgradecostparts: 75
+    abilityparameter: 7
+    abilityduration: 4
+    abilitychargetime: 11.2
+  - id: 2
+    level: 1
+    stamina: 70
+    lifes: 10
+    upgradecostsc: 0
+    upgradecostparts: 0
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 12
+  - id: 2
+    level: 2
+    stamina: 95
+    lifes: 10
+    upgradecostsc: 5000
+    upgradecostparts: 10
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 11.6
+  - id: 2
+    level: 3
+    stamina: 120
+    lifes: 10
+    upgradecostsc: 10000
+    upgradecostparts: 25
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 11.4
+  - id: 2
+    level: 4
+    stamina: 145
+    lifes: 10
+    upgradecostsc: 25000
+    upgradecostparts: 50
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 11.2
+  - id: 2
+    level: 5
+    stamina: 170
+    lifes: 10
+    upgradecostsc: 50000
+    upgradecostparts: 75
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 11
+  - id: 2
+    level: 6
+    stamina: 195
+    lifes: 10
+    upgradecostsc: 75000
+    upgradecostparts: 100
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 10.8
+  - id: 2
+    level: 7
+    stamina: 220
+    lifes: 10
+    upgradecostsc: 100000
+    upgradecostparts: 150
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 10.6
+  - id: 2
+    level: 8
+    stamina: 245
+    lifes: 10
+    upgradecostsc: 150000
+    upgradecostparts: 250
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 10.4
+  - id: 3
+    level: 1
+    stamina: 65
+    lifes: 10
+    upgradecostsc: 0
+    upgradecostparts: 0
+    abilityparameter: 0.35
+    abilityduration: 0
+    abilitychargetime: 0
+  - id: 3
+    level: 2
+    stamina: 90
+    lifes: 10
+    upgradecostsc: 5000
+    upgradecostparts: 10
+    abilityparameter: 0.37
+    abilityduration: 0
+    abilitychargetime: 0
+  - id: 3
+    level: 3
+    stamina: 115
+    lifes: 10
+    upgradecostsc: 10000
+    upgradecostparts: 25
+    abilityparameter: 0.39
+    abilityduration: 0
+    abilitychargetime: 0
+  - id: 3
+    level: 4
+    stamina: 140
+    lifes: 10
+    upgradecostsc: 25000
+    upgradecostparts: 50
+    abilityparameter: 0.41
+    abilityduration: 0
+    abilitychargetime: 0
+  - id: 3
+    level: 5
+    stamina: 165
+    lifes: 10
+    upgradecostsc: 50000
+    upgradecostparts: 75
+    abilityparameter: 0.43
+    abilityduration: 0
+    abilitychargetime: 0
+  - id: 3
+    level: 6
+    stamina: 190
+    lifes: 10
+    upgradecostsc: 75000
+    upgradecostparts: 100
+    abilityparameter: 0.45
+    abilityduration: 0
+    abilitychargetime: 0
+  - id: 3
+    level: 7
+    stamina: 215
+    lifes: 10
+    upgradecostsc: 100000
+    upgradecostparts: 150
+    abilityparameter: 0.47
+    abilityduration: 0
+    abilitychargetime: 0
+  - id: 3
+    level: 8
+    stamina: 240
+    lifes: 10
+    upgradecostsc: 150000
+    upgradecostparts: 250
+    abilityparameter: 0.49
+    abilityduration: 0
+    abilitychargetime: 0
+  - id: 4
+    level: 1
+    stamina: 75
+    lifes: 10
+    upgradecostsc: 0
+    upgradecostparts: 0
+    abilityparameter: 0
+    abilityduration: 0
+    abilitychargetime: 10
+  - id: 4
+    level: 2
+    stamina: 95
+    lifes: 10
+    upgradecostsc: 5000
+    upgradecostparts: 10
+    abilityparameter: 0
+    abilityduration: 0
+    abilitychargetime: 9.8
+  - id: 4
+    level: 3
+    stamina: 115
+    lifes: 10
+    upgradecostsc: 10000
+    upgradecostparts: 25
+    abilityparameter: 0
+    abilityduration: 0
+    abilitychargetime: 9.6
+  - id: 4
+    level: 4
+    stamina: 135
+    lifes: 10
+    upgradecostsc: 25000
+    upgradecostparts: 50
+    abilityparameter: 0
+    abilityduration: 0
+    abilitychargetime: 9.4
+  - id: 4
+    level: 5
+    stamina: 155
+    lifes: 10
+    upgradecostsc: 50000
+    upgradecostparts: 75
+    abilityparameter: 0
+    abilityduration: 0
+    abilitychargetime: 9.2
+  - id: 4
+    level: 6
+    stamina: 175
+    lifes: 10
+    upgradecostsc: 75000
+    upgradecostparts: 100
+    abilityparameter: 0
+    abilityduration: 0
+    abilitychargetime: 9
+  - id: 4
+    level: 7
+    stamina: 195
+    lifes: 10
+    upgradecostsc: 100000
+    upgradecostparts: 150
+    abilityparameter: 0
+    abilityduration: 0
+    abilitychargetime: 8.8
+  - id: 4
+    level: 8
+    stamina: 215
+    lifes: 10
+    upgradecostsc: 150000
+    upgradecostparts: 250
+    abilityparameter: 0
+    abilityduration: 0
+    abilitychargetime: 8.6
+  - id: 5
+    level: 1
+    stamina: 85
+    lifes: 10
+    upgradecostsc: 0
+    upgradecostparts: 0
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 12
+  - id: 5
+    level: 2
+    stamina: 105
+    lifes: 10
+    upgradecostsc: 5000
+    upgradecostparts: 20
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 11.6
+  - id: 5
+    level: 3
+    stamina: 125
+    lifes: 10
+    upgradecostsc: 10000
+    upgradecostparts: 50
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 11.2
+  - id: 5
+    level: 4
+    stamina: 145
+    lifes: 10
+    upgradecostsc: 25000
+    upgradecostparts: 100
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 10.8
+  - id: 5
+    level: 5
+    stamina: 165
+    lifes: 10
+    upgradecostsc: 50000
+    upgradecostparts: 200
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 10.4
+  - id: 5
+    level: 6
+    stamina: 185
+    lifes: 10
+    upgradecostsc: 75000
+    upgradecostparts: 400
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 10
+  - id: 5
+    level: 7
+    stamina: 205
+    lifes: 10
+    upgradecostsc: 100000
+    upgradecostparts: 600
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 9.6
+  - id: 5
+    level: 8
+    stamina: 225
+    lifes: 10
+    upgradecostsc: 150000
+    upgradecostparts: 800
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 9.2
+  - id: 5
+    level: 9
+    stamina: 245
+    lifes: 10
+    upgradecostsc: 200000
+    upgradecostparts: 1000
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 8.8
+  - id: 6
+    level: 1
+    stamina: 90
+    lifes: 10
+    upgradecostsc: 0
+    upgradecostparts: 0
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 12
+  - id: 6
+    level: 2
+    stamina: 105
+    lifes: 10
+    upgradecostsc: 5000
+    upgradecostparts: 20
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 11.6
+  - id: 6
+    level: 3
+    stamina: 120
+    lifes: 10
+    upgradecostsc: 10000
+    upgradecostparts: 50
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 11.2
+  - id: 6
+    level: 4
+    stamina: 135
+    lifes: 10
+    upgradecostsc: 25000
+    upgradecostparts: 100
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 10.8
+  - id: 6
+    level: 5
+    stamina: 150
+    lifes: 10
+    upgradecostsc: 50000
+    upgradecostparts: 200
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 10.4
+  - id: 6
+    level: 6
+    stamina: 165
+    lifes: 10
+    upgradecostsc: 75000
+    upgradecostparts: 400
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 10
+  - id: 6
+    level: 7
+    stamina: 180
+    lifes: 10
+    upgradecostsc: 100000
+    upgradecostparts: 600
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 9.6
+  - id: 6
+    level: 8
+    stamina: 195
+    lifes: 10
+    upgradecostsc: 150000
+    upgradecostparts: 800
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 9.2
+  - id: 6
+    level: 9
+    stamina: 210
+    lifes: 10
+    upgradecostsc: 200000
+    upgradecostparts: 1000
+    abilityparameter: 0.25
+    abilityduration: 0
+    abilitychargetime: 8.8

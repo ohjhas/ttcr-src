@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd023f3bf3c9a18918ce504c094eb457, type: 3}
+  m_Name: O7SdkBalancing
+  m_EditorClassIdentifier:
+  sheetName: BalancingData_MinisRun
+  worksheetName: O7Sdk
+  dataArray:
+  - ratemeshowfrequency: 2
+    ratemefirsttime: 12
+    ratemesecondtime: 18

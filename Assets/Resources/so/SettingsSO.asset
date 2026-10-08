@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a54add44a2de8a24ec4c5d70fee36f6, type: 3}
+  m_Name: SettingsSO
+  m_EditorClassIdentifier:
+  WorldIndex: 3
+  ChapterSettings:
+  - {fileID: 11400000, guid: 5f33140325ca8504dbca08fbdfe27ca8, type: 2}
+  - {fileID: 11400000, guid: bd3edf6ab21558d4f827f5d20f1fed13, type: 2}
+  - {fileID: 11400000, guid: 317276199261ac9448ee541a43992baa, type: 2}
+  - {fileID: 11400000, guid: dd20a44aec4eea945ace4d3534c5d6d6, type: 2}
+  - {fileID: 11400000, guid: 41df7b2f46f89c3429ec00459b951e14, type: 2}
+  - {fileID: 11400000, guid: a44b4eb1f8229d2449c1ac04c65ec537, type: 2}
+  MinPositionY: -10
+  PlayerCameraOffset: {x: -5, y: -4, z: 0}
+  DestroyZoneOffset: -20
+  MinDelayBetweenOutgameAnimations: 1
+  CharSettings:
+  - {fileID: 11400000, guid: 62fd318f6bc5cd34c8abcdd850cd9233, type: 2}
+  - {fileID: 11400000, guid: 9c755b170c5aa914e9f82bcf470ddd14, type: 2}
+  - {fileID: 11400000, guid: 04f1701d0f546544eb14de6d9f091cd3, type: 2}
+  - {fileID: 11400000, guid: 7e182a50eb7fbba488ca6d5c885e1390, type: 2}
+  - {fileID: 11400000, guid: 77e81722f1c72e34aa8ba2ab504c7951, type: 2}
+  - {fileID: 11400000, guid: e19c2f0f4c8dec847b322cac6f6ba89a, type: 2}
+  - {fileID: 11400000, guid: be44f059c8cb62143a82c465a6457212, type: 2}
+  AnchorToPlayer: {x: -2, y: 3, z: 0}
+  AnchorToScreen: {x: 11, y: 1.75, z: 0}
+  CameraSmoothTimeFollow: 0.2
+  DragonBlastRange: 2
+  UnicornAnimationLength: 0.75
+  CompanionSettings:
+  - {fileID: 11400000, guid: efc0ec7418514544db4ed101761a29c5, type: 2}
+  - {fileID: 11400000, guid: 2b2bebf5f606ba14887f6f7c62ffbc3e, type: 2}
+  - {fileID: 11400000, guid: 716a89672dee3954481df2c858b80dc1, type: 2}
+  - {fileID: 11400000, guid: bc62405087d66a243a3aaf5c2fcf9366, type: 2}
+  - {fileID: 11400000, guid: e39c018340694094381b1351d24eaac4, type: 2}
+  BaseSpeed: 10
+  HitSpeed: 1
+  HitRecoverSpeed: 2
+  StartingStamina: 75
+  InvulnerabilityTime: 1
+  JumpForce: 20
+  JumpBufferDuration: 0.2
+  JumpsQuantity: 2
+  ColliderNormal: {x: 1.7, y: 2.8}
+  ColliderSlide: {x: 1.158743, y: 1.717485}
+  CloudsDuration: 3
+  CloudSize: 2.56
+  CloudsYPosition: -4.57
+  MaxHitForce: {x: 1000, y: 500}
+  MaxHitTorque: 500
+  FadeOutDuration: 3
+  DestroyedObstacleScore: 200
+  GameplayType: 0
+  StaminaEffectDelay: 0
+  StaminaFieldBounceDelay: 0.4
+  AbilityBounceEffectDelay: 0.7
+  AbilityChangeTextDelay: 0.8
+  RibbonEffectsDelayAbilityAbsent: 1.5
+  RibbonEffectsDelayAbilityPresent: 1.8
+  ChangeLevelTextEffectDelayAbilityAbsent: 1.9
+  ChangeLevelTextEffectDelayAbilityPresent: 2.2
+  WinAnimationDelayAbilityPresent: 0.8
+  WinAnimationDelayAbilityAbsent: 0.5
+  LevelProgressAfterUpgradeDelay: 3
+  ParticlesStartTime: 0.8
+  ParticlesStopTime: 10
+  StaminaBounceEffectDuration: 0.2
+  StaminaFieldBounceDuration: 0.3
+  AbilityBounceEffectDuration: 0.3
+  RibbonShineEffectDuration: 0.3
+  CharacterJumpAnimationDuration: 0.5
+  StaminaBounceEffectInBetweenPunchesOffset: 0.05
+  StaminaBounceEffectFirstBounceStrength: 0.3
+  StaminaBounceEffectLastBounceStrength: 0.5
+  StaminaFieldBouncePunch: 1.35
+  AbilityBouncePunch: 1.35
+  BouncePunchAnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.5
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: -2
+      outSlope: -2
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  CharacterJumpAnimationTopPosition: {x: 0, y: 230}
+  CharacterJumpAnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: -0.0022583008
+      inSlope: 5.313724
+      outSlope: 5.313724
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.5
+      value: 1
+      inSlope: 0.0500679
+      outSlope: 0.0500679
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: -5.412011
+      outSlope: -5.412011
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0

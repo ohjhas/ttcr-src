@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16168eb482c714658b94888392bc1515, type: 3}
+  m_Name: SettingsIngameHUDSO
+  m_EditorClassIdentifier:
+  StaminaFlyTimelength: 0.5
+  StaminaBarBounceEffectInBetweenPunchesOffset: 0.0625
+  StaminaFlyAnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.5
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: -2
+      outSlope: -2
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  StaminaBarBounceEffectSingleBounceDuration: 0.25
+  StaminaBarBounceEffectFirstBounceStrength: 0.1
+  StaminaBarBounceEffectLastBounceStrength: 0.25
+  StaminaFillSpeed: 50
+  MissionGoalScaleAnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: -2.636365
+      outSlope: -2.636365
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: -1.4873291
+      outSlope: -1.4873291
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  MissionGoalMoveAnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: -0.24118221
+      outSlope: -0.24118221
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.6372029
+      value: 0.0919642
+      inSlope: 0.5905633
+      outSlope: 0.5905633
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.9971052
+      value: 0.9944801
+      inSlope: 3.1614366
+      outSlope: 3.1614366
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  MissionGoalAnimationMoveAnimationDuration: 0.6
+  MissionGoalMoveAnimationDelay: 0.2

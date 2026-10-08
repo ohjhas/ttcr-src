@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3e3c5b1fcbcecbb33b8103a2bc6f826, type: 3}
+  m_Name: CompanionsStaticBalancing
+  m_EditorClassIdentifier:
+  sheetName: BalancingData_MinisRun
+  worksheetName: CompanionsStatic
+  dataArray:
+  - id: 0
+    itemtype: 2
+    name: companion_0_name
+    abilitytype: 6
+    rarity: 1
+    minlevel: 1
+    unlocked: 0
+  - id: 1
+    itemtype: 2
+    name: companion_1_name
+    abilitytype: 7
+    rarity: 2
+    minlevel: 5
+    unlocked: 0
+  - id: 2
+    itemtype: 2
+    name: companion_2_name
+    abilitytype: 8
+    rarity: 2
+    minlevel: 1
+    unlocked: 0
+  - id: 3
+    itemtype: 2
+    name: companion_4_name
+    abilitytype: 4
+    rarity: 2
+    minlevel: 5
+    unlocked: 0
+  - id: 4
+    itemtype: 2
+    name: companion_5_name
+    abilitytype: 12
+    rarity: 2
+    minlevel: 5
+    unlocked: 0

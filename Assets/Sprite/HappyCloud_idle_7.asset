@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: HappyCloud_idle_7
+  m_Rect:
+    serializedVersion: 2
+    x: 192.07613
+    y: 532.0761
+    width: 154.84775
+    height: 119.92388
+  m_Offset: {x: -2.0751934, y: -1.6795882}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 120
+  m_Pivot: {x: 0.4865985, y: 0.48599455}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RenderDataKey:
+    1df6d7595dea01648bdaf2c55dbb9d14: 21300014
+  m_AtlasTags: []
+  m_SpriteAtlas: {fileID: 0}
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: 3ad3a04021a45a742bfcc0174ac8ec73, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 18
+      topology: 0
+      baseVertex: 0
+      firstVertex: 0
+      vertexCount: 8
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 070006000500000005000600040005000000030004000000010003000000020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 8
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 160
+      _typelessdata: bcd31a3f8080033f000000000000000000000000abc2293fcdca3ebe000000000000000000000000abc2293fcdcdd33e000000000000000000000000bcd31a3f00ffb8be000000000000000000000000bcebb93e00fff8be000000000000000000000000bc5b3fbe00fff8be00000000000000000000000000e820bf8080033f00000000000000000000000000e820bfbcbab4be000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 192.07613
+      y: 532.0761
+      width: 154.84775
+      height: 119.92388
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: -1, y: -1}
+    settingsRaw: 64
+    uvTransform: {x: 120, y: 267.4248, z: 120, w: 590.35846}
+    downscaleMultiplier: 1
+  m_AtlasRD:
+    serializedVersion: 2
+    texture: {fileID: 0}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes: []
+    m_IndexBuffer:
+    m_VertexData:
+      m_CurrentChannels: 0
+      m_VertexCount: 0
+      m_Channels: []
+      m_DataSize: 0
+      _typelessdata:
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 0, y: 0}
+    settingsRaw: 0
+    uvTransform: {x: 0, y: 0, z: 0, w: 0}
+    downscaleMultiplier: 0
+  m_PhysicsShape:
+  - - {x: 0.6547933, y: -0.10298717}
+    - {x: 0.6547933, y: 0.11367951}
+    - {x: 0.64646, y: 0.18034618}
+    - {x: 0.58812666, y: 0.25534618}
+    - {x: 0.44645998, y: 0.37201285}
+    - {x: 0.28812665, y: 0.4303462}
+    - {x: 0.1547933, y: 0.5136795}
+    - {x: -0.07854004, y: 0.5136795}
+    - {x: -0.14520672, y: 0.47201285}
+    - {x: -0.35354006, y: 0.40534618}
+    - {x: -0.47854006, y: 0.3303462}
+    - {x: -0.52020675, y: 0.2636795}
+    - {x: -0.6285401, y: 0.038679507}
+    - {x: -0.6285401, y: -0.1863205}
+    - {x: -0.5618734, y: -0.26965386}
+    - {x: -0.50354004, y: -0.31965384}
+    - {x: -0.45354006, y: -0.35298717}
+    - {x: -0.39520672, y: -0.39465386}
+    - {x: -0.19520672, y: -0.37798718}
+    - {x: -0.086873375, y: -0.4529872}
+    - {x: -0.020206707, y: -0.4779872}
+    - {x: 0.18812664, y: -0.4779872}
+    - {x: 0.28812665, y: -0.41965386}
+    - {x: 0.50479335, y: -0.29465383}
+    - {x: 0.62979335, y: -0.15298717}

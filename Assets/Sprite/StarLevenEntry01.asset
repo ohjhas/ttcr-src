@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: StarLevenEntry01
+  m_Rect:
+    serializedVersion: 2
+    x: 17.07612
+    y: 17.02675
+    width: 133.89713
+    height: 122.92555
+  m_Offset: {x: -0.5246797, y: 0.010477516}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 100
+  m_Pivot: {x: 0.49608147, y: 0.50008523}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RenderDataKey:
+    a5eb5f422b52c7946be75e6bd5fbc8b1: 21300000
+  m_AtlasTags: []
+  m_SpriteAtlas: {fileID: 0}
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: 96ef8b0e39580f94989a47adb2f4061f, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 24
+      topology: 0
+      baseVertex: 0
+      firstVertex: 0
+      vertexCount: 10
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 090008000700050007000800060007000500030006000500040003000500000003000400010003000000020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 10
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 200
+      _typelessdata: b81e253fcdcc8c3e000000000000000000000000cdcc2c3fc3f528be000000000000000000000000cdcc2c3fd7a3703e000000000000000000000000a470fd3ea4701dbf0000000000000000000000005c8fc23da4701d3f0000000000000000000000009a9999bda4701d3f0000000000000000000000009a99d9bea4701dbf0000000000000000000000007b140ebfae47a1be000000000000000000000000713d2abff6285c3e000000000000000000000000713d2abf8fc275bc000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 17.07612
+      y: 17.02675
+      width: 133.89713
+      height: 122.92555
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: -1, y: -1}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 83.5, z: 100, w: 78.5}
+    downscaleMultiplier: 1
+  m_AtlasRD:
+    serializedVersion: 2
+    texture: {fileID: 0}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes: []
+    m_IndexBuffer:
+    m_VertexData:
+      m_CurrentChannels: 0
+      m_VertexCount: 0
+      m_Channels: []
+      m_DataSize: 0
+      _typelessdata:
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 0, y: 0}
+    settingsRaw: 0
+    uvTransform: {x: 0, y: 0, z: 0, w: 0}
+    downscaleMultiplier: 0
+  m_PhysicsShape:
+  - - {x: 0.66499996, y: 0.185}
+    - {x: 0.625, y: 0.235}
+    - {x: 0.575, y: 0.255}
+    - {x: 0.515, y: 0.285}
+    - {x: 0.255, y: 0.375}
+    - {x: 0.205, y: 0.445}
+    - {x: 0.095, y: 0.575}
+    - {x: 0.044999998, y: 0.60499996}
+    - {x: -0.024999999, y: 0.60499996}
+    - {x: -0.105, y: 0.585}
+    - {x: -0.185, y: 0.48499998}
+    - {x: -0.265, y: 0.315}
+    - {x: -0.545, y: 0.235}
+    - {x: -0.66499996, y: 0.155}
+    - {x: -0.66499996, y: 0.015}
+    - {x: -0.445, y: -0.24499999}
+    - {x: -0.435, y: -0.445}
+    - {x: -0.415, y: -0.565}
+    - {x: -0.355, y: -0.615}
+    - {x: -0.305, y: -0.615}
+    - {x: -0.145, y: -0.59499997}
+    - {x: 0.005, y: -0.53499997}
+    - {x: 0.225, y: -0.615}
+    - {x: 0.39499998, y: -0.615}
+    - {x: 0.465, y: -0.585}
+    - {x: 0.475, y: -0.525}
+    - {x: 0.465, y: -0.24499999}
+    - {x: 0.66499996, y: 0.095}

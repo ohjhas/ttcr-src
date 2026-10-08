@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 222eb395da6c8ea02e7588d67c5ceb1c, type: 3}
+  m_Name: TutorialOutgameUnlockLevelsBalancing
+  m_EditorClassIdentifier:
+  sheetName: BalancingData_MinisRun
+  worksheetName: TutorialOutgameUnlockLevels
+  dataArray:
+  - tutorialoutgamelevel: 0
+    passedleveltrigger: -1
+  - tutorialoutgamelevel: 5
+    passedleveltrigger: 0
+  - tutorialoutgamelevel: 1
+    passedleveltrigger: 1
+  - tutorialoutgamelevel: 9
+    passedleveltrigger: 3
+  - tutorialoutgamelevel: 7
+    passedleveltrigger: 5
+  - tutorialoutgamelevel: 3
+    passedleveltrigger: 6
+  - tutorialoutgamelevel: 4
+    passedleveltrigger: 7
+  - tutorialoutgamelevel: 2
+    passedleveltrigger: 7
+  - tutorialoutgamelevel: 8
+    passedleveltrigger: 8
+  - tutorialoutgamelevel: 6
+    passedleveltrigger: 9
+  - tutorialoutgamelevel: 10
+    passedleveltrigger: 1

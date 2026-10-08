@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1b201524b4ea9e2e0fa46135326957, type: 3}
+  m_Name: SettingsResultScreenSO
+  m_EditorClassIdentifier:
+  FadeTransparency: 0.75
+  CounterAnimTime: 1
+  CounterAnimCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MissionProgressBarOnThreeStarsAnimationScaleDownDuration: 1
+  MissionProgressBarOnThreeStarsAnimationScaleUpDuration: 0.8
+  MissionProgressBarOnThreeStarsAnimationScaleUpDelay: 1.1
+  MissionProgressBarOnThreeStarsAnimationParticlesDelay: 1
+  MissionProgressBarOnThreeStarsAnimationScaleDownAnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: -0.796581
+      outSlope: -0.796581
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.7497539
+      value: -0.19872956
+      inSlope: 0
+      outSlope: 2.0656872
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 3.758353
+      outSlope: 3.758353
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  MissionProgressBarOnThreeStarsAnimationScaleUpAnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0.4368909
+      outSlope: 0.4368909
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.53572816
+      value: 1.1867638
+      inSlope: 0.81425923
+      outSlope: 0.81425923
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.67967814
+      value: 1.2126865
+      inSlope: -0.18621287
+      outSlope: -0.18621287
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1.239764
+      outSlope: 1.239764
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0

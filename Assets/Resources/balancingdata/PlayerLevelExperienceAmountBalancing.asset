@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb8fa2da5abfa640da78e0ed54b8928, type: 3}
+  m_Name: PlayerLevelExperienceAmountBalancing
+  m_EditorClassIdentifier:
+  sheetName: BalancingData_MinisRun
+  worksheetName: PlayerLevelExperienceAmount
+  dataArray:
+  - playerexperiencetype: 0
+    level: 1
+    expamount: 25
+  - playerexperiencetype: 0
+    level: 2
+    expamount: 50
+  - playerexperiencetype: 0
+    level: 3
+    expamount: 75
+  - playerexperiencetype: 0
+    level: 4
+    expamount: 100
+  - playerexperiencetype: 0
+    level: 5
+    expamount: 150
+  - playerexperiencetype: 0
+    level: 6
+    expamount: 250
+  - playerexperiencetype: 0
+    level: 7
+    expamount: 400
+  - playerexperiencetype: 0
+    level: 8
+    expamount: 600
+  - playerexperiencetype: 0
+    level: 9
+    expamount: 800
+  - playerexperiencetype: 0
+    level: 10
+    expamount: 1000
+  - playerexperiencetype: 1
+    level: 1
+    expamount: 25
+  - playerexperiencetype: 1
+    level: 2
+    expamount: 50
+  - playerexperiencetype: 1
+    level: 3
+    expamount: 75
+  - playerexperiencetype: 1
+    level: 4
+    expamount: 100
+  - playerexperiencetype: 1
+    level: 5
+    expamount: 150
+  - playerexperiencetype: 1
+    level: 6
+    expamount: 250
+  - playerexperiencetype: 1
+    level: 7
+    expamount: 400
+  - playerexperiencetype: 1
+    level: 8
+    expamount: 600
+  - playerexperiencetype: 1
+    level: 9
+    expamount: 800
+  - playerexperiencetype: 1
+    level: 10
+    expamount: 1000
+  - playerexperiencetype: 2
+    level: 0
+    expamount: 5
+  - playerexperiencetype: 2
+    level: 1
+    expamount: 10
+  - playerexperiencetype: 2
+    level: 2
+    expamount: 20
+  - playerexperiencetype: 2
+    level: 3
+    expamount: 30
+  - playerexperiencetype: 2
+    level: 4
+    expamount: 75
+  - playerexperiencetype: 2
+    level: 5
+    expamount: 5
+  - playerexperiencetype: 4
+    level: 1
+    expamount: 100
+  - playerexperiencetype: 4
+    level: 2
+    expamount: 250
+  - playerexperiencetype: 4
+    level: 3
+    expamount: 500
+  - playerexperiencetype: 4
+    level: 4
+    expamount: 1000
+  - playerexperiencetype: 3
+    level: 1
+    expamount: 15
+  - playerexperiencetype: 4
+    level: 5
+    expamount: 2000

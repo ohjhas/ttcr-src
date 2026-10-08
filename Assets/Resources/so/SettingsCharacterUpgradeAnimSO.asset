@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ef7a90de1c1cc324c98f721ee402a05, type: 3}
+  m_Name: SettingsCharacterUpgradeAnimSO
+  m_EditorClassIdentifier:
+  ParticlesEffectDelay: 0.5
+  StaminaEffectDelay: 1
+  AbilityBounceEffectDelay: 1.8
+  RibbonEffectsDelay: 2.3
+  ChangeLevelTextEffectDelay: 2.4
+  LevelProgressAfterUpgradeDelay: 3
+  TotalCharUpgradeAnimationDuration: 2.9
+  StaminaBounceEffectDuration: 0.3
+  AbilityBounceEffectDuration: 0.3
+  RibbonShineEffectDuration: 0.3
+  RibbonBounceEffectDuration: 0.3
+  RibbonBouncePunch: 0.15
+  AbilityBouncePunch: 0.15
+  StaminaBounceEffectInBetweenPunchesOffset: 0.05
+  StaminaBounceEffectFirstBounceStrength: 0.15
+  StaminaBounceEffectLastBounceStrength: 0.3

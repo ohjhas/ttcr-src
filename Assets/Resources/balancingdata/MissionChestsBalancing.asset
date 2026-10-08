@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d85a495f16e578f8cc8cd7653ba58c5, type: 3}
+  m_Name: MissionChestsBalancing
+  m_EditorClassIdentifier:
+  sheetName: BalancingData_MinisRun
+  worksheetName: MissionChests
+  dataArray:
+  - levelindex: 5
+    chestid: 5
+  - levelindex: 6
+    chestid: 6
+  - levelindex: 7
+    chestid: 0
+  - levelindex: 8
+    chestid: 0
+  - levelindex: 9
+    chestid: 1
+  - levelindex: 10
+    chestid: 0
+  - levelindex: 11
+    chestid: 0
+  - levelindex: 12
+    chestid: 0
+  - levelindex: 13
+    chestid: 0
+  - levelindex: 14
+    chestid: 1
+  - levelindex: 15
+    chestid: 0
+  - levelindex: 16
+    chestid: 0
+  - levelindex: 17
+    chestid: 0
+  - levelindex: 18
+    chestid: 0
+  - levelindex: 19
+    chestid: 2
+  - levelindex: 20
+    chestid: 1
+  - levelindex: 21
+    chestid: 1
+  - levelindex: 22
+    chestid: 1
+  - levelindex: 23
+    chestid: 1
+  - levelindex: 24
+    chestid: 2
+  - levelindex: 25
+    chestid: 1
+  - levelindex: 26
+    chestid: 1
+  - levelindex: 27
+    chestid: 1
+  - levelindex: 28
+    chestid: 1
+  - levelindex: 29
+    chestid: 3
+  - levelindex: 30
+    chestid: 1
+  - levelindex: 31
+    chestid: 1
+  - levelindex: 32
+    chestid: 1
+  - levelindex: 33
+    chestid: 1
+  - levelindex: 34
+    chestid: 2
+  - levelindex: 35
+    chestid: 1
+  - levelindex: 36
+    chestid: 1
+  - levelindex: 37
+    chestid: 1
+  - levelindex: 38
+    chestid: 1
+  - levelindex: 39
+    chestid: 2
+  - levelindex: 40
+    chestid: 1
+  - levelindex: 41
+    chestid: 1
+  - levelindex: 42
+    chestid: 1
+  - levelindex: 43
+    chestid: 1
+  - levelindex: 44
+    chestid: 3
+  - levelindex: 45
+    chestid: 1
+  - levelindex: 46
+    chestid: 1
+  - levelindex: 47
+    chestid: 1
+  - levelindex: 48
+    chestid: 1
+  - levelindex: 49
+    chestid: 2
+  - levelindex: 50
+    chestid: 1
+  - levelindex: 51
+    chestid: 1
+  - levelindex: 52
+    chestid: 1
+  - levelindex: 53
+    chestid: 1
+  - levelindex: 54
+    chestid: 2
+  - levelindex: 55
+    chestid: 1
+  - levelindex: 56
+    chestid: 1
+  - levelindex: 57
+    chestid: 1
+  - levelindex: 58
+    chestid: 1
+  - levelindex: 59
+    chestid: 3
+  - levelindex: 60
+    chestid: 1
+  - levelindex: 61
+    chestid: 1
+  - levelindex: 62
+    chestid: 1
+  - levelindex: 63
+    chestid: 1
+  - levelindex: 64
+    chestid: 3
+  - levelindex: 65
+    chestid: 1
+  - levelindex: 66
+    chestid: 1
+  - levelindex: 67
+    chestid: 1
+  - levelindex: 68
+    chestid: 1
+  - levelindex: 69
+    chestid: 3
+  - levelindex: 70
+    chestid: 1
+  - levelindex: 71
+    chestid: 1
+  - levelindex: 72
+    chestid: 1
+  - levelindex: 73
+    chestid: 1
+  - levelindex: 74
+    chestid: 4
+  - levelindex: 75
+    chestid: 2
+  - levelindex: 76
+    chestid: 2
+  - levelindex: 77
+    chestid: 2
+  - levelindex: 78
+    chestid: 3
+  - levelindex: 79
+    chestid: 4

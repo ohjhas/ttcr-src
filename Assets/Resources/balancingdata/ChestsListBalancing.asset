@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d515273d38cb86e9633913d8ff2044, type: 3}
+  m_Name: ChestsListBalancing
+  m_EditorClassIdentifier:
+  sheetName: BalancingData_MinisRun
+  worksheetName: ChestsList
+  dataArray:
+  - chestid: 0
+    itemtype: 3
+    name: chests_free_name
+    contentdescription: chest_free_content
+    rarity: 0
+    shopvisibility: 1
+    assetname: freeChest
+    initialwaittime: 120
+    waittime: 10800
+    pricesc: 0
+    pricehc: 0
+    minpartsamount: 1
+    maxpartsamount: 2
+  - chestid: 1
+    itemtype: 3
+    name: chests_basic_name
+    contentdescription: chest_basic_content
+    rarity: 1
+    shopvisibility: 1
+    assetname: basicChest
+    initialwaittime: 0
+    waittime: 0
+    pricesc: 10000
+    pricehc: 0
+    minpartsamount: 1
+    maxpartsamount: 2
+  - chestid: 2
+    itemtype: 3
+    name: chests_rare_name
+    contentdescription: chest_rare_content
+    rarity: 2
+    shopvisibility: 1
+    assetname: rareChest
+    initialwaittime: 0
+    waittime: 0
+    pricesc: 0
+    pricehc: 250
+    minpartsamount: 1
+    maxpartsamount: 3
+  - chestid: 3
+    itemtype: 3
+    name: chests_epic_name
+    contentdescription: chest_epic_content
+    rarity: 3
+    shopvisibility: 1
+    assetname: epicChest
+    initialwaittime: 0
+    waittime: 0
+    pricesc: 0
+    pricehc: 1000
+    minpartsamount: 3
+    maxpartsamount: 5
+  - chestid: 4
+    itemtype: 3
+    name: chests_legendary_name
+    contentdescription: chest_legendary_content
+    rarity: 4
+    shopvisibility: 1
+    assetname: legendaryChest
+    initialwaittime: 0
+    waittime: 0
+    pricesc: 0
+    pricehc: 2500
+    minpartsamount: 6
+    maxpartsamount: 8
+  - chestid: 5
+    itemtype: 3
+    name: tutorial character
+    contentdescription:
+    rarity: 0
+    shopvisibility: 0
+    assetname: rareChest
+    initialwaittime: 0
+    waittime: 0
+    pricesc: 0
+    pricehc: 0
+    minpartsamount: 1
+    maxpartsamount: 1
+  - chestid: 6
+    itemtype: 3
+    name: tutorial companion
+    contentdescription:
+    rarity: 0
+    shopvisibility: 0
+    assetname: rareChest
+    initialwaittime: 0
+    waittime: 0
+    pricesc: 0
+    pricehc: 0
+    minpartsamount: 1
+    maxpartsamount: 1
+  - chestid: 7
+    itemtype: 3
+    name: tutorial shop
+    contentdescription:
+    rarity: 0
+    shopvisibility: 0
+    assetname: rareChest
+    initialwaittime: 0
+    waittime: 0
+    pricesc: 0
+    pricehc: 0
+    minpartsamount: 2
+    maxpartsamount: 2

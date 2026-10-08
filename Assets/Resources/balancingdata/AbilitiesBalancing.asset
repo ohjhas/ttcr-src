@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65287d77f33403b3798bed386c8f52cc, type: 3}
+  m_Name: AbilitiesBalancing
+  m_EditorClassIdentifier:
+  sheetName: BalancingData_MinisRun
+  worksheetName: Abilities
+  dataArray:
+  - abilitytype: 1
+    name: abilities_score_bonus_name
+    assetname: score_bonus_ability
+    description: abilities_score_bonus_description
+  - abilitytype: 2
+    name: abilities_fast_movement_name
+    assetname: fast_movement_ability
+    description: abilities_fast_movement_description
+  - abilitytype: 3
+    name: abilities_magnet_name
+    assetname: magnet_ability
+    description: abilities_magnet_description
+  - abilitytype: 4
+    name: abilities_revive_name
+    assetname: revive_ability
+    description: abilities_revive_description
+  - abilitytype: 5
+    name: abilities_speedup_name
+    assetname: speedup_ability
+    description: abilities_speedup_description
+  - abilitytype: 6
+    name: abilities_stamina_spawn_name
+    assetname: stamina_spawn_ability
+    description: abilities_stamina_spawn_description
+  - abilitytype: 7
+    name: abilities_random_powerup_name
+    assetname: random_powerup_ability
+    description: abilities_random_powerup_description
+  - abilitytype: 8
+    name: abilities_dragon_blast_name
+    assetname: dragon_blast_ability
+    description: abilities_dragon_blast_description
+  - abilitytype: 9
+    name: abilities_speedup_spawn_name
+    assetname: speedup_spawn_ability
+    description: abilities_speedup_spawn_description
+  - abilitytype: 10
+    name: abilities_police_car_name
+    assetname: tom_police_car_ability
+    description: abilities_police_car_description
+  - abilitytype: 11
+    name: abilities_giant_speedup_name
+    assetname: ben_giant_speedup_ability
+    description: abilities_giant_speedup_description
+  - abilitytype: 12
+    name: abilities_shield_name
+    assetname: abilities_shield_ability
+    description: abilities_shield_description
+  - abilitytype: 13
+    name: '-'
+    assetname: '-'
+    description: '-'

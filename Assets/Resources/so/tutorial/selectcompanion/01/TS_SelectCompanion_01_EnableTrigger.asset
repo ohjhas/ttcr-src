@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a673de127f19db5b6d3aad58672d2e9, type: 3}
+  m_Name: TS_SelectCompanion_01_EnableTrigger
+  m_EditorClassIdentifier:
+  isTriggered: 0
+  condition: 0
+  triggers:
+  - {fileID: 11400000, guid: 54a484504403c984b8fa595c48368490, type: 2}
+  - {fileID: 11400000, guid: dcac9d1c5c2b4fd4483481b3c8fcda7c, type: 2}

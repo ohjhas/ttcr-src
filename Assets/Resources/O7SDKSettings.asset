@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61cd6df315e2bf5071d4ba7c438ca694, type: 3}
+  m_Name: O7SDKSettings
+  m_EditorClassIdentifier:
+  iOS:
+    appId: 1348239067
+    urlShema: o7talkingtomcandyrun
+  restoreState:
+    endpoint: /playsoft/ttcr/v1/users
+    signatureMagic: 34a40c5e-dde5-4a8b-85c3-5a4713428c00
+  builds:
+    Devel:
+      debugMode: 1
+      developmentBackedn: 1
+      logging: 1
+      buildType: 0
+    Prod:
+      debugMode: 1
+      developmentBackedn: 0
+      logging: 0
+      buildType: 1
+    RC:
+      debugMode: 0
+      developmentBackedn: 0
+      logging: 0
+      buildType: 2

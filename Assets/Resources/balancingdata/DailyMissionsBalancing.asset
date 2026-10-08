@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77e66cbadd2ba40c912383c9d4fc8485, type: 3}
+  m_Name: DailyMissionsBalancing
+  m_EditorClassIdentifier:
+  sheetName: BalancingData_MinisRun
+  worksheetName: DailyMissions
+  dataArray:
+  - missionid: 0
+    dailymissiongroup: 0
+    dailymissiontype: 4
+    title: daily_mission_collect_score_ice_cream
+    dailymissiongoal: 100
+    itemtype: 0
+    itemindex: 0
+    itemamount: 6000
+  - missionid: 1
+    dailymissiongroup: 0
+    dailymissiontype: 5
+    title: daily_mission_collect_score_cake
+    dailymissiongoal: 75
+    itemtype: 0
+    itemindex: 0
+    itemamount: 5000
+  - missionid: 2
+    dailymissiongroup: 0
+    dailymissiontype: 6
+    title: daily_mission_collect_score_fruit
+    dailymissiongoal: 50
+    itemtype: 0
+    itemindex: 0
+    itemamount: 4000
+  - missionid: 3
+    dailymissiongroup: 0
+    dailymissiontype: 7
+    title: daily_mission_collect_score_candy
+    dailymissiongoal: 100
+    itemtype: 0
+    itemindex: 0
+    itemamount: 6000
+  - missionid: 4
+    dailymissiongroup: 0
+    dailymissiontype: 8
+    title: daily_mission_collect_score_tasty
+    dailymissiongoal: 10
+    itemtype: 0
+    itemindex: 0
+    itemamount: 4000
+  - missionid: 5
+    dailymissiongroup: 0
+    dailymissiontype: 3
+    title: daily_mission_collect_score_jelly
+    dailymissiongoal: 100
+    itemtype: 0
+    itemindex: 0
+    itemamount: 5000
+  - missionid: 6
+    dailymissiongroup: 1
+    dailymissiontype: 28
+    title: daily_mission_upgrade_character
+    dailymissiongoal: 1
+    itemtype: 0
+    itemindex: 0
+    itemamount: 10000
+  - missionid: 7
+    dailymissiongroup: 1
+    dailymissiontype: 29
+    title: daily_mission_upgrade_companion
+    dailymissiongoal: 1
+    itemtype: 0
+    itemindex: 0
+    itemamount: 10000
+  - missionid: 8
+    dailymissiongroup: 1
+    dailymissiontype: 30
+    title: daily_mission_open_chests
+    dailymissiongoal: 1
+    itemtype: 0
+    itemindex: 0
+    itemamount: 5000
+  - missionid: 9
+    dailymissiongroup: 1
+    dailymissiontype: 31
+    title: daily_mission_play_missions
+    dailymissiongoal: 3
+    itemtype: 0
+    itemindex: 0
+    itemamount: 15000
+  - missionid: 10
+    dailymissiongroup: 1
+    dailymissiontype: 0
+    title: daily_mission_destroy_obstacles
+    dailymissiongoal: 10
+    itemtype: 0
+    itemindex: 0
+    itemamount: 5000
+  - missionid: 11
+    dailymissiongroup: 1
+    dailymissiontype: 10
+    title: daily_mission_collect_score_ice_cream_medium
+    dailymissiongoal: 50
+    itemtype: 0
+    itemindex: 0
+    itemamount: 10000
+  - missionid: 12
+    dailymissiongroup: 2
+    dailymissiontype: 23
+    title: daily_mission_collect_booster_giant
+    dailymissiongoal: 3
+    itemtype: 0
+    itemindex: 1
+    itemamount: 25
+  - missionid: 13
+    dailymissiongroup: 2
+    dailymissiontype: 25
+    title: daily_mission_collect_booster_speedup
+    dailymissiongoal: 2
+    itemtype: 0
+    itemindex: 1
+    itemamount: 20
+  - missionid: 14
+    dailymissiongroup: 2
+    dailymissiontype: 24
+    title: daily_mission_collect_booster_magnet
+    dailymissiongoal: 5
+    itemtype: 0
+    itemindex: 1
+    itemamount: 50
+  - missionid: 15
+    dailymissiongroup: 2
+    dailymissiontype: 0
+    title: daily_mission_destroy_obstacles
+    dailymissiongoal: 15
+    itemtype: 0
+    itemindex: 1
+    itemamount: 50
+  - missionid: 16
+    dailymissiongroup: 2
+    dailymissiontype: 30
+    title: daily_mission_open_chests
+    dailymissiongoal: 3
+    itemtype: 0
+    itemindex: 1
+    itemamount: 50
+  - missionid: 17
+    dailymissiongroup: 2
+    dailymissiontype: 31
+    title: daily_mission_play_missions
+    dailymissiongoal: 5
+    itemtype: 0
+    itemindex: 1
+    itemamount: 50

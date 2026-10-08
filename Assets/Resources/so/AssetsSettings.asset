@@ -1,0 +1,377 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46eff5adeb0317eda445093563f0da67, type: 3}
+  m_Name: AssetsSettings
+  m_EditorClassIdentifier:
+  SpriteAssets:
+  - Name: freeChest
+    Sprite: {fileID: 21300000, guid: 6dadb715ef46255468999b87688bae80, type: 2}
+  - Name: basicChest
+    Sprite: {fileID: 21300000, guid: 8c67e199e41a89f42bfba0a626c7a43f, type: 2}
+  - Name: rareChest
+    Sprite: {fileID: 21300000, guid: b83937c496c5928439201face0c286a7, type: 2}
+  - Name: epicChest
+    Sprite: {fileID: 21300000, guid: cdceffb643162a441b6c23e13f3fa8fc, type: 2}
+  - Name: legendaryChest
+    Sprite: {fileID: 21300000, guid: a514eb92da70faf41a273d3eb647f08b, type: 2}
+  - Name: SCIcon
+    Sprite: {fileID: 21300000, guid: cc0a3bce83840934b9ee23953c1c1871, type: 2}
+  - Name: HCIcon
+    Sprite: {fileID: 21300000, guid: 06952f252ddeb7c4494eb2c1753c44f7, type: 2}
+  - Name: freeChest_open
+    Sprite: {fileID: 21300000, guid: 03c50742278b86a418a462e16c660ad4, type: 2}
+  - Name: basicChest_open
+    Sprite: {fileID: 21300000, guid: 0415744829c98ff44b1191b0af42ab80, type: 2}
+  - Name: rareChest_open
+    Sprite: {fileID: 21300000, guid: cbdca91fbb436ea458bce168d6b9c231, type: 2}
+  - Name: epicChest_open
+    Sprite: {fileID: 21300000, guid: 826ca69c67f5dd34b9135ddac8265e7c, type: 2}
+  - Name: legendaryChest_open
+    Sprite: {fileID: 21300000, guid: d0f82381f330a514094c96f147e4ea69, type: 2}
+  - Name: fast_movement_ability
+    Sprite: {fileID: 21300000, guid: 72de8beeb279c8640a635edf6bc8af49, type: 2}
+  - Name: score_bonus_ability
+    Sprite: {fileID: 21300000, guid: 77b77f0e729e4ee4b9a5db386fbfea37, type: 2}
+  - Name: starIcon
+    Sprite: {fileID: 21300000, guid: 737fc34583109aa4e93f59a3ee5f4a34, type: 2}
+  - Name: magnet_ability
+    Sprite: {fileID: 21300000, guid: 205f970432a314741a9743451f743b08, type: 2}
+  - Name: revive_ability
+    Sprite: {fileID: 21300000, guid: d1e8a3b675c20f74d9799aae9a46011a, type: 2}
+  - Name: speedup_ability
+    Sprite: {fileID: 21300000, guid: b49e909d7b82c6c4bb9f132efea6c985, type: 2}
+  - Name: stamina_spawn_ability
+    Sprite: {fileID: 21300000, guid: 03fc95c6a103ac442a4700b44235ca02, type: 2}
+  - Name: random_powerup_ability
+    Sprite: {fileID: 21300000, guid: 26773be677a01b440ba4b0c86a4e075b, type: 2}
+  - Name: dragon_blast_ability
+    Sprite: {fileID: 21300000, guid: 6943794dd342ad541b3e5d062d2d9c44, type: 2}
+  - Name: shop_sc_small_pack
+    Sprite: {fileID: 21300000, guid: 9781068e6decffe479bec578f143dcbd, type: 2}
+  - Name: shop_sc_medium_pack
+    Sprite: {fileID: 21300000, guid: cc3f5fcfb0e89df48ad04add1a3df25d, type: 2}
+  - Name: shop_sc_big_pack
+    Sprite: {fileID: 21300000, guid: fe399c1772cd225469a349baf69339af, type: 2}
+  - Name: shop_hc_small_pack
+    Sprite: {fileID: 21300000, guid: fbb7cfa6fd174a040b1e986e720cba90, type: 2}
+  - Name: shop_hc_medium_pack
+    Sprite: {fileID: 21300000, guid: 020ebe63afbd97a4580e34156a7a1d3a, type: 2}
+  - Name: shop_hc_big_pack
+    Sprite: {fileID: 21300000, guid: 45bf30edbb5655a44a23d87ef668f206, type: 2}
+  - Name: speedup_spawn_ability
+    Sprite: {fileID: 21300000, guid: 1fe9e3c1bba990549be12576712f9188, type: 2}
+  - Name: ben_giant_speedup_ability
+    Sprite: {fileID: 21300000, guid: a5370f0ab4c88a64081f0b71f5452e4b, type: 2}
+  - Name: tom_police_car_ability
+    Sprite: {fileID: 21300000, guid: eb3caf616a159b44399c80cf5815b139, type: 2}
+  - Name: abilities_shield_ability
+    Sprite: {fileID: 21300000, guid: a6bbf2488bf1ee9458db49efe636309c, type: 2}
+  - Name: chapter0
+    Sprite: {fileID: 21300000, guid: 8d8fdbff881f92d4bbcedc3614e3cc78, type: 2}
+  - Name: chapter1
+    Sprite: {fileID: 21300000, guid: fc2364171c900da4cbc8f7446f5a93a2, type: 2}
+  - Name: chapter2
+    Sprite: {fileID: 21300000, guid: afcda6de690e7dc489fd3effeb789ed8, type: 2}
+  - Name: chapter3
+    Sprite: {fileID: 21300000, guid: 7d1856edebf3d784ea57d5e70bffb368, type: 2}
+  - Name: chapter4
+    Sprite: {fileID: 21300000, guid: dcefd174770f60b40b751a3d895940e2, type: 2}
+  - Name: chapter5
+    Sprite: {fileID: 21300000, guid: 75d4cd285024cf2439fcf897ce420d6a, type: 2}
+  LevelElementAssets:
+  - Name: SmallStaminaToken
+    LevelElement: {fileID: 114884547391421755, guid: 66050c29616afde4b950bf68aef665f2, type: 2}
+  - Name: BigScoreTokenJelly
+    LevelElement: {fileID: 114884547391421755, guid: 5148ffe7ea2dd4548be7f686bef77f41, type: 2}
+  - Name: BigScoreTokenCake
+    LevelElement: {fileID: 114884547391421755, guid: 88be5b8951401c640b1b8ea0ef405f7d, type: 2}
+  - Name: BigScoreTokenCandy
+    LevelElement: {fileID: 114884547391421755, guid: 278de6d7f130a8b43ab5864bef197aad, type: 2}
+  - Name: BigScoreTokenFruit
+    LevelElement: {fileID: 114884547391421755, guid: a54edf9445557544c8c1a347afeb5d18, type: 2}
+  - Name: BigScoreTokenIceCream
+    LevelElement: {fileID: 114884547391421755, guid: aacd94fb6b334d34681f822dbc034e37, type: 2}
+  - Name: BigScoreTokenTasty
+    LevelElement: {fileID: 114884547391421755, guid: 0eb187e1400d4bd44a4c9e3ca356f7f0, type: 2}
+  - Name: MediumScoreTokenCake
+    LevelElement: {fileID: 114884547391421755, guid: eabfd26966d94e541b47ae885aeaa273, type: 2}
+  - Name: MediumScoreTokenCandy
+    LevelElement: {fileID: 114884547391421755, guid: 28b29d7069457a742bb0eacbd148a3db, type: 2}
+  - Name: MediumScoreTokenFruit
+    LevelElement: {fileID: 114884547391421755, guid: 4631f80c85ff3c84cb703a5691df079e, type: 2}
+  - Name: MediumScoreTokenIceCream
+    LevelElement: {fileID: 114884547391421755, guid: c09e76771390c6745becf6f9ddb83416, type: 2}
+  - Name: MediumScoreTokenJelly
+    LevelElement: {fileID: 114884547391421755, guid: 2539c5fbd8b592044be09570d98f26af, type: 2}
+  - Name: MediumScoreTokenTasty
+    LevelElement: {fileID: 114884547391421755, guid: 0f598f1ffe99a4e41816aa85c88e34bd, type: 2}
+  - Name: ScoreTokenCake
+    LevelElement: {fileID: 114884547391421755, guid: 248c140b12b9d1b4eaa022d3330a8788, type: 2}
+  - Name: ScoreTokenCandy
+    LevelElement: {fileID: 114884547391421755, guid: 1f4a278c1ae28d546a56642a0be84f59, type: 2}
+  - Name: ScoreTokenFruit
+    LevelElement: {fileID: 114884547391421755, guid: 98dcd7076c9e986459b5a4d95c05435e, type: 2}
+  - Name: ScoreTokenIceCream
+    LevelElement: {fileID: 114884547391421755, guid: e68a19fa332356b4e84eed1db9c9a3d7, type: 2}
+  - Name: ScoreTokenJelly
+    LevelElement: {fileID: 114884547391421755, guid: cea83592837e03d4b924865e7e3e996b, type: 2}
+  - Name: ScoreTokenTasty
+    LevelElement: {fileID: 114884547391421755, guid: 34f940e443a06424faa35460e56d1fd6, type: 2}
+  - Name: GiantToken
+    LevelElement: {fileID: 114884547391421755, guid: 5b06d4e23f1da384e8af62e0708a65d2, type: 2}
+  - Name: MagnetCollectible
+    LevelElement: {fileID: 114884547391421755, guid: 06ef0185676bffb42b7ffbddd66b0396, type: 2}
+  - Name: ScoreMultiplierToken
+    LevelElement: {fileID: 114884547391421755, guid: fc3e7dd2679dd4e4ebf5e65fd77b32ea, type: 2}
+  - Name: SpeedUpToken
+    LevelElement: {fileID: 114884547391421755, guid: 3a4d0ec7592d9ca4ebe1ea36328987d0, type: 2}
+  - Name: UpgradeScoreToken
+    LevelElement: {fileID: 114884547391421755, guid: 9bdcc2f6559486f42b02eacc0a786a33, type: 2}
+  missionIconAssets:
+  - Type: 0
+    Sprite: {fileID: 21300000, guid: a19ad5a2996802c4083847bee89809cf, type: 2}
+    Size: 1
+    minFillAmount: 0.14
+    minFirstFillAmount: 0.03
+  - Type: 1
+    Sprite: {fileID: 21300000, guid: fc21ddad34beb6d4aa8ebc6ab80e81ee, type: 2}
+    Size: 1
+    minFillAmount: 0.07
+    minFirstFillAmount: 0.026
+  - Type: 4
+    Sprite: {fileID: 21300000, guid: fc21ddad34beb6d4aa8ebc6ab80e81ee, type: 2}
+    Size: 1
+    minFillAmount: 0.07
+    minFirstFillAmount: 0.03
+  - Type: 5
+    Sprite: {fileID: 21300000, guid: 07b23d673dd41c74da7cb6ca450b9618, type: 2}
+    Size: 1
+    minFillAmount: 0.105
+    minFirstFillAmount: 0.026
+  - Type: 6
+    Sprite: {fileID: 21300000, guid: c050ad009c627f942a0f9af64524e174, type: 2}
+    Size: 1
+    minFillAmount: 0.145
+    minFirstFillAmount: 0.026
+  - Type: 7
+    Sprite: {fileID: 21300000, guid: 872005b1007151341a39ac7fa51309a8, type: 2}
+    Size: 1
+    minFillAmount: 0.12
+    minFirstFillAmount: 0.026
+  - Type: 8
+    Sprite: {fileID: 21300000, guid: d458644a513cb9c4bb52fd0773d68eea, type: 2}
+    Size: 1
+    minFillAmount: 0.136
+    minFirstFillAmount: 0.026
+  - Type: 9
+    Sprite: {fileID: 21300000, guid: 2e33984a5e3220447a25e7305a9c29e8, type: 2}
+    Size: 1
+    minFillAmount: 0.14
+    minFirstFillAmount: 0.026
+  - Type: 10
+    Sprite: {fileID: 21300000, guid: 413e06d270bd48f4f9ec63f91d8f58f0, type: 2}
+    Size: 1
+    minFillAmount: 0.065
+    minFirstFillAmount: 0.03
+  - Type: 11
+    Sprite: {fileID: 21300000, guid: c9dcdb44a0948db48864d03f0d50e7a6, type: 2}
+    Size: 1
+    minFillAmount: 0.06
+    minFirstFillAmount: 0.03
+  - Type: 12
+    Sprite: {fileID: 21300000, guid: 444570b6af492e14b98817829a19d66e, type: 2}
+    Size: 1
+    minFillAmount: 0.132
+    minFirstFillAmount: 0.026
+  - Type: 13
+    Sprite: {fileID: 21300000, guid: 79ff48dc0fa5aa845b94b9b8688e967e, type: 2}
+    Size: 1
+    minFillAmount: 0.125
+    minFirstFillAmount: 0.03
+  - Type: 14
+    Sprite: {fileID: 21300000, guid: f6de40079916e8844966e231aee3e9e7, type: 2}
+    Size: 1
+    minFillAmount: 0.13
+    minFirstFillAmount: 0.026
+  - Type: 15
+    Sprite: {fileID: 21300000, guid: fe611fb6358a5f844a46f8b99bc23735, type: 2}
+    Size: 1
+    minFillAmount: 0.148
+    minFirstFillAmount: 0.026
+  - Type: 16
+    Sprite: {fileID: 21300000, guid: 2095a2a059b78ba42a06b02ff6b5b306, type: 2}
+    Size: 1
+    minFillAmount: 0.065
+    minFirstFillAmount: 0.03
+  - Type: 17
+    Sprite: {fileID: 21300000, guid: 8bc82bfd870c0f049abb028dc0b7ed80, type: 2}
+    Size: 1
+    minFillAmount: 0.09
+    minFirstFillAmount: 0.035
+  - Type: 18
+    Sprite: {fileID: 21300000, guid: ddcea18e381ed2845bcd4789551a66be, type: 2}
+    Size: 1
+    minFillAmount: 0.12
+    minFirstFillAmount: 0.035
+  - Type: 19
+    Sprite: {fileID: 21300000, guid: 4b09b48f96ca44f4aaaefd945468483a, type: 2}
+    Size: 1
+    minFillAmount: 0.13
+    minFirstFillAmount: 0.035
+  - Type: 20
+    Sprite: {fileID: 21300000, guid: 0ed5fc8ff29014243a342740c4398254, type: 2}
+    Size: 1
+    minFillAmount: 0.14
+    minFirstFillAmount: 0.03
+  - Type: 21
+    Sprite: {fileID: 21300000, guid: 3cda4d60de2e8da4b83ded25d3abdaac, type: 2}
+    Size: 1
+    minFillAmount: 0.13
+    minFirstFillAmount: 0.035
+  - Type: 2
+    Sprite: {fileID: 21300000, guid: 95fe0145a9efdf641b2c0da2422ca71a, type: 2}
+    Size: 1
+    minFillAmount: 0
+    minFirstFillAmount: 0.14
+  - Type: 22
+    Sprite: {fileID: 21300000, guid: a19ad5a2996802c4083847bee89809cf, type: 2}
+    Size: 1.5
+    minFillAmount: 0.15
+    minFirstFillAmount: 0.02
+  dailyMissionIconAssets:
+  - Type: 0
+    Sprite: {fileID: 21300000, guid: 7bb75f676b2990b468fe13ea99d3f9c6, type: 2}
+    Size: 1
+    Offset: {x: -25, y: 0}
+  - Type: 1
+    Sprite: {fileID: 21300000, guid: a19ad5a2996802c4083847bee89809cf, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 2
+    Sprite: {fileID: 21300000, guid: a19ad5a2996802c4083847bee89809cf, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 3
+    Sprite: {fileID: 21300000, guid: a61e9839691745544a100d422e6ec0e1, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 4
+    Sprite: {fileID: 21300000, guid: acc91234367d9d546a2d85102a54daf4, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 5
+    Sprite: {fileID: 21300000, guid: fddf996f7a8580743a370863d36643e5, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 6
+    Sprite: {fileID: 21300000, guid: 8c88b9d6f50a08e4bbb3d54d214190cf, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 7
+    Sprite: {fileID: 21300000, guid: 0ba629bdbb82b0047a15546b49e78ceb, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 8
+    Sprite: {fileID: 21300000, guid: 39bbebde064b75541a7de20043c35edf, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 9
+    Sprite: {fileID: 21300000, guid: db4396c5a4803e843beca8e62865dd39, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 10
+    Sprite: {fileID: 21300000, guid: 9d7d8a8c7fd5d574887d269656e463ba, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 11
+    Sprite: {fileID: 21300000, guid: f6cbf63c06f2f7847936daf96281835f, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 12
+    Sprite: {fileID: 21300000, guid: 91ed04256d4650348ad7293f1bc85ec5, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 13
+    Sprite: {fileID: 21300000, guid: a718cfaf6f2be17428c0d89b42b5896b, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 14
+    Sprite: {fileID: 21300000, guid: fc4431f8e9470a14a975ba29d5e6369a, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 15
+    Sprite: {fileID: 21300000, guid: 7d2807ac4057ed44990dcc097bdd26c7, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 16
+    Sprite: {fileID: 21300000, guid: de87a2ef25094634893b3ef99cc36e50, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 17
+    Sprite: {fileID: 21300000, guid: 4aac1ac52ec0de34aa853187f881e428, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 18
+    Sprite: {fileID: 21300000, guid: 25040801c062f394c995335bf3a9f61e, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 19
+    Sprite: {fileID: 21300000, guid: 057a5b776afbcab4abfb90c150e756b2, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 20
+    Sprite: {fileID: 21300000, guid: f0a2656a37059ae4c8b9b9c34ef13908, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 21
+    Sprite: {fileID: 21300000, guid: e2b40ea4e806975408a292265872ad49, type: 2}
+    Size: 1
+    Offset: {x: -15, y: 0}
+  - Type: 22
+    Sprite: {fileID: 21300000, guid: e2b40ea4e806975408a292265872ad49, type: 2}
+    Size: 1
+    Offset: {x: -15, y: 0}
+  - Type: 23
+    Sprite: {fileID: 21300000, guid: e2b40ea4e806975408a292265872ad49, type: 2}
+    Size: 1
+    Offset: {x: -15, y: 0}
+  - Type: 24
+    Sprite: {fileID: 21300000, guid: e2b40ea4e806975408a292265872ad49, type: 2}
+    Size: 1
+    Offset: {x: -15, y: 0}
+  - Type: 25
+    Sprite: {fileID: 21300000, guid: e2b40ea4e806975408a292265872ad49, type: 2}
+    Size: 1
+    Offset: {x: -15, y: 0}
+  - Type: 26
+    Sprite: {fileID: 21300000, guid: e2b40ea4e806975408a292265872ad49, type: 2}
+    Size: 1
+    Offset: {x: -15, y: 0}
+  - Type: 27
+    Sprite: {fileID: 21300000, guid: e2b40ea4e806975408a292265872ad49, type: 2}
+    Size: 1
+    Offset: {x: -15, y: 0}
+  - Type: 28
+    Sprite: {fileID: 21300000, guid: da6fb93df1c4b0244aa545b09360b6f5, type: 2}
+    Size: 1
+    Offset: {x: -18, y: 0}
+  - Type: 29
+    Sprite: {fileID: 21300000, guid: fe743ce4967b4524ba371b84dc961f98, type: 2}
+    Size: 1
+    Offset: {x: -10, y: 0}
+  - Type: 30
+    Sprite: {fileID: 21300000, guid: 6dadb715ef46255468999b87688bae80, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}
+  - Type: 31
+    Sprite: {fileID: 21300000, guid: 612d5c1e2139ba442ae3a3302493a9db, type: 2}
+    Size: 1
+    Offset: {x: -3, y: 0}

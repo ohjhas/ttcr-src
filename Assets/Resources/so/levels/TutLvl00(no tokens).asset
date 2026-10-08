@@ -1,0 +1,5729 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1865e26f1338d48aa2ca9e6f14437384, type: 3}
+  m_Name: TutLvl00(no tokens)
+  m_EditorClassIdentifier:
+  LevelTutorialSettings:
+    GodMode: 0
+    CompanionEnabled: 1
+    CharacterAbilityEnabeld: 1
+    ForceChestReward: 0
+    LongerMissionGoalPopup: 0
+    ShowStaminaHitTutorialIfHappens: 1
+    AfterLoseAction: 0
+    HudSettings:
+      JumpButton: 1
+      SlideButton: 1
+      MissionGoal: 1
+      StaminaBar: 1
+      CoinsCounter: 1
+      PauseButton: 1
+    ResultSettings:
+      Stars: 1
+      GoalBar: 1
+      Coins: 1
+      RestartButton: 1
+  LevelElements:
+  - AssetName: Platform
+    Position: {x: 143.52986, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 137.25996, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 124.94989, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 134.17, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 131.04996, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 127.96988, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 140.38991, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 121.97, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 17.200008, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 85.499985, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 94.44991, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 14.080013, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 20.3, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 23.450008, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 26.570004, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 29.719997, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 73.33998, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 76.489975, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 79.61, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 82.7, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 91.64001, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 88.56999, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: ObstacleLowMini
+    Position: {x: 22.089931, y: -3.06, z: 0}
+    Obstacle:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: TutorialTrigger
+    Position: {x: 16.689938, y: 0, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 1
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 1
+        Step: 0
+        StopTime: 1
+  - AssetName: ObstacleHigh
+    Position: {x: 81.77992, y: -2.02, z: 0}
+    Obstacle:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: TutorialTrigger
+    Position: {x: 74.32, y: 0, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 1
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 1
+        Step: 1
+        StopTime: 1
+  - AssetName: LevelEnd
+    Position: {x: 126.38992, y: 0, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 1
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 1
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: PlatformLeftEdge
+    Position: {x: -16.42, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: -1.5100002, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: -7.8099995, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: -4.659998, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: -10.940001, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: -14.089998, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 7.870002, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 11.020003, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 4.7400007, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 1.5900011, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 149.79988, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 146.67, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 152.9399, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: TutorialTrigger
+    Position: {x: 35.450016, y: 0, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 1
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 1
+        Step: 0
+        StopTime: 1
+  - AssetName: ObstacleLowMini
+    Position: {x: 40.85001, y: -3.06, z: 0}
+    Obstacle:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 48.480076, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 45.330082, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 42.210087, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 39.060078, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 32.84009, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 35.960087, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 70.24004, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 54.68017, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 51.56017, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 57.78016, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 60.93017, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 64.05016, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 67.20016, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: ObstacleLowMini
+    Position: {x: 59.57009, y: -3.06, z: 0}
+    Obstacle:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: TutorialTrigger
+    Position: {x: 54.170097, y: 0, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 1
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 1
+        Step: 0
+        StopTime: 1
+  - AssetName: TutorialTrigger
+    Position: {x: 101.1, y: 0, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 1
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 1
+        Step: 1
+        StopTime: 1
+  - AssetName: ObstacleHigh
+    Position: {x: 108.97996, y: -2.02, z: 0}
+    Obstacle:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 118.92001, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 115.77003, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 109.90003, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 97.57993, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 106.810036, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 103.69001, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 100.540016, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+  - AssetName: Platform
+    Position: {x: 112.70002, y: -4.91, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 1
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 0
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix:
+      SpeedChange:
+        IsEnabled: 0
+        Speed: 0
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0

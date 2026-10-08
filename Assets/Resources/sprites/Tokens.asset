@@ -1,0 +1,439 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2019389346, guid: 6688afa0f02631b2b5e49d8865cb8d62, type: 3}
+  m_Name: Tokens
+  m_EditorClassIdentifier:
+  hashCode: -1034285496
+  material: {fileID: 2100000, guid: a35d2df57a119ae44a9be9bf8ffe3922, type: 2}
+  materialHashCode: 0
+  spriteSheet: {fileID: 2800000, guid: 82471d273e36d294bbe4732a296b8be1, type: 3}
+  spriteInfoList:
+  - id: 0
+    x: 618
+    y: 922
+    width: 91
+    height: 101
+    xOffset: 0
+    yOffset: 77
+    xAdvance: 82
+    scale: 1.7
+    name: token_jelly_1
+    hashCode: 292020444
+    unicode: 0
+    pivot: {x: -40, y: 57}
+    sprite: {fileID: 21300000, guid: a61e9839691745544a100d422e6ec0e1, type: 2}
+  - id: 1
+    x: 523
+    y: 919
+    width: 93
+    height: 104
+    xOffset: 0
+    yOffset: 77
+    xAdvance: 82
+    scale: 1.7
+    name: token_jelly_3
+    hashCode: 292020446
+    unicode: 0
+    pivot: {x: -42, y: 51.000004}
+    sprite: {fileID: 21300000, guid: 7d2807ac4057ed44990dcc097bdd26c7, type: 2}
+  - id: 2
+    x: 437
+    y: 911
+    width: 84
+    height: 112
+    xOffset: 0
+    yOffset: 77
+    xAdvance: 82
+    scale: 1.7
+    name: token_icecream_2
+    hashCode: -1621504130
+    unicode: 0
+    pivot: {x: -38, y: 55.000004}
+    sprite: {fileID: 21300000, guid: 9d7d8a8c7fd5d574887d269656e463ba, type: 2}
+  - id: 3
+    x: 249
+    y: 837
+    width: 186
+    height: 186
+    xOffset: 0
+    yOffset: 77
+    xAdvance: 82
+    scale: 1.7
+    name: token_giant_1
+    hashCode: 1001604447
+    unicode: 0
+    pivot: {x: -93, y: 98}
+    sprite: {fileID: 21300000, guid: 648f1682974a31347a39c9cc9f97eb5d, type: 2}
+  - id: 4
+    x: 593
+    y: 815
+    width: 93
+    height: 102
+    xOffset: 0
+    yOffset: 77
+    xAdvance: 82
+    scale: 1.7
+    name: token_cake_2
+    hashCode: -212692667
+    unicode: 0
+    pivot: {x: -41, y: 51}
+    sprite: {fileID: 21300000, guid: f6cbf63c06f2f7847936daf96281835f, type: 2}
+  - id: 5
+    x: 514
+    y: 800
+    width: 77
+    height: 109
+    xOffset: 0
+    yOffset: 77
+    xAdvance: 82
+    scale: 1.7
+    name: token_fruit_1
+    hashCode: -1741783338
+    unicode: 0
+    pivot: {x: -41, y: 56.999996}
+    sprite: {fileID: 21300000, guid: 8c88b9d6f50a08e4bbb3d54d214190cf, type: 2}
+  - id: 6
+    x: 1
+    y: 774
+    width: 246
+    height: 249
+    xOffset: -25
+    yOffset: 170
+    xAdvance: 195
+    scale: 2.3
+    name: token_stamina_big
+    hashCode: 195957946
+    unicode: 0
+    pivot: {x: -125, y: 125}
+    sprite: {fileID: 21300000, guid: 95fe0145a9efdf641b2c0da2422ca71a, type: 2}
+  - id: 7
+    x: 400
+    y: 723
+    width: 112
+    height: 112
+    xOffset: 0
+    yOffset: 77
+    xAdvance: 82
+    scale: 1.7
+    name: upgrade_score_powerup
+    hashCode: 1808981602
+    unicode: 0
+    pivot: {x: -56, y: 56}
+    sprite: {fileID: 21300000, guid: 29e16d4f21382b14795d44880e401a2f, type: 2}
+  - id: 8
+    x: 593
+    y: 723
+    width: 88
+    height: 90
+    xOffset: 0
+    yOffset: 67.4
+    xAdvance: 82
+    scale: 1.7
+    name: token_candy_1
+    hashCode: 1567732379
+    unicode: 0
+    pivot: {x: -47.000004, y: 46}
+    sprite: {fileID: 21300000, guid: 0ba629bdbb82b0047a15546b49e78ceb, type: 2}
+  - id: 9
+    x: 618
+    y: 640
+    width: 115
+    height: 81
+    xOffset: 0
+    yOffset: 60
+    xAdvance: 105
+    scale: 1.7
+    name: token_candy_2
+    hashCode: 1567732376
+    unicode: 0
+    pivot: {x: -56, y: 40}
+    sprite: {fileID: 21300000, guid: a718cfaf6f2be17428c0d89b42b5896b, type: 2}
+  - id: 10
+    x: 400
+    y: 609
+    width: 111
+    height: 112
+    xOffset: 0
+    yOffset: 84
+    xAdvance: 98
+    scale: 1.7
+    name: token_fruit_3
+    hashCode: -1741783340
+    unicode: 0
+    pivot: {x: -53, y: 55.000004}
+    sprite: {fileID: 21300000, guid: 25040801c062f394c995335bf3a9f61e, type: 2}
+  - id: 11
+    x: 513
+    y: 609
+    width: 103
+    height: 112
+    xOffset: 0
+    yOffset: 83
+    xAdvance: 95
+    scale: 1.7
+    name: token_candy_3
+    hashCode: 1567732377
+    unicode: 0
+    pivot: {x: -55.000004, y: 57}
+    sprite: {fileID: 21300000, guid: 057a5b776afbcab4abfb90c150e756b2, type: 2}
+  - id: 12
+    x: 199
+    y: 572
+    width: 199
+    height: 200
+    xOffset: 0
+    yOffset: 137
+    xAdvance: 192
+    scale: 1.7
+    name: token_tastysuper_2
+    hashCode: 539449155
+    unicode: 0
+    pivot: {x: -99, y: 96}
+    sprite: {fileID: 21300000, guid: fc4431f8e9470a14a975ba29d5e6369a, type: 2}
+  - id: 13
+    x: 1
+    y: 563
+    width: 196
+    height: 209
+    xOffset: 0
+    yOffset: 155
+    xAdvance: 180
+    scale: 1.7
+    name: token_tastysuper_3
+    hashCode: 539449154
+    unicode: 0
+    pivot: {x: -94, y: 104}
+    sprite: {fileID: 21300000, guid: f0a2656a37059ae4c8b9b9c34ef13908, type: 2}
+  - id: 14
+    x: 577
+    y: 507
+    width: 106
+    height: 100
+    xOffset: 0
+    yOffset: 77
+    xAdvance: 95
+    scale: 1.7
+    name: token_fruit_2
+    hashCode: -1741783339
+    unicode: 0
+    pivot: {x: -53, y: 48}
+    sprite: {fileID: 21300000, guid: 91ed04256d4650348ad7293f1bc85ec5, type: 2}
+  - id: 15
+    x: 201
+    y: 384
+    width: 186
+    height: 186
+    xOffset: 0
+    yOffset: 77
+    xAdvance: 82
+    scale: 1.7
+    name: token_score_multiplier
+    hashCode: -1615444808
+    unicode: 0
+    pivot: {x: -95, y: 96}
+    sprite: {fileID: 21300000, guid: 9373694b6062949408aecfdbdab88c22, type: 2}
+  - id: 16
+    x: 389
+    y: 384
+    width: 186
+    height: 186
+    xOffset: -42
+    yOffset: 125
+    xAdvance: 97
+    scale: 2.4
+    name: token_stamina
+    hashCode: 235094665
+    unicode: 0
+    pivot: {x: -94, y: 96}
+    sprite: {fileID: 21300000, guid: 56e39e5bbd093db4781ca8b93e2289fc, type: 2}
+  - id: 17
+    x: 1
+    y: 360
+    width: 198
+    height: 201
+    xOffset: 0
+    yOffset: 142
+    xAdvance: 195
+    scale: 1.7
+    name: token_tastysuper_1
+    hashCode: 539449152
+    unicode: 0
+    pivot: {x: -101, y: 100.00001}
+    sprite: {fileID: 21300000, guid: 39bbebde064b75541a7de20043c35edf, type: 2}
+  - id: 18
+    x: 565
+    y: 266
+    width: 75
+    height: 116
+    xOffset: 0
+    yOffset: 83
+    xAdvance: 72
+    scale: 1.9
+    name: token_icecream_1
+    hashCode: -1621504131
+    unicode: 0
+    pivot: {x: -36, y: 58}
+    sprite: {fileID: 21300000, guid: acc91234367d9d546a2d85102a54daf4, type: 2}
+  - id: 19
+    x: 377
+    y: 196
+    width: 186
+    height: 186
+    xOffset: 0
+    yOffset: 77
+    xAdvance: 82
+    scale: 1.7
+    name: token_speed_boost
+    hashCode: 1401620185
+    unicode: 0
+    pivot: {x: -94, y: 95}
+    sprite: {fileID: 21300000, guid: ebd44c72670c9cd409c8810367954d29, type: 2}
+  - id: 20
+    x: 1
+    y: 172
+    width: 186
+    height: 186
+    xOffset: 0
+    yOffset: 77
+    xAdvance: 82
+    scale: 1.7
+    name: token_giant_10
+    hashCode: -1306791665
+    unicode: 0
+    pivot: {x: -94, y: 99}
+    sprite: {fileID: 21300000, guid: 3b04f137cdf895a4da2d5ea5ed8e6f92, type: 2}
+  - id: 21
+    x: 189
+    y: 172
+    width: 186
+    height: 186
+    xOffset: 0
+    yOffset: 77
+    xAdvance: 82
+    scale: 1.7
+    name: token_magnet
+    hashCode: 17229616
+    unicode: 0
+    pivot: {x: -93, y: 96}
+    sprite: {fileID: 21300000, guid: 25e0518d4d01ed4448468f2737022f5b, type: 2}
+  - id: 22
+    x: 625
+    y: 152
+    width: 112
+    height: 112
+    xOffset: 0
+    yOffset: 77
+    xAdvance: 82
+    scale: 1.7
+    name: special_2_token
+    hashCode: -332482776
+    unicode: 0
+    pivot: {x: -56, y: 56}
+    sprite: {fileID: 21300000, guid: 6815fdc5bdd7e0e45b98c546bc38aa09, type: 2}
+  - id: 23
+    x: 527
+    y: 78
+    width: 96
+    height: 116
+    xOffset: 0
+    yOffset: 84
+    xAdvance: 82
+    scale: 1.9
+    name: token_jelly_2
+    hashCode: 292020447
+    unicode: 0
+    pivot: {x: -43, y: 59.999996}
+    sprite: {fileID: 21300000, guid: db4396c5a4803e843beca8e62865dd39, type: 2}
+  - id: 24
+    x: 410
+    y: 77
+    width: 115
+    height: 117
+    xOffset: 0
+    yOffset: 87
+    xAdvance: 103
+    scale: 1.7
+    name: token_cake_3
+    hashCode: -212692668
+    unicode: 0
+    pivot: {x: -57, y: 58.000004}
+    sprite: {fileID: 21300000, guid: 4aac1ac52ec0de34aa853187f881e428, type: 2}
+  - id: 25
+    x: 306
+    y: 51
+    width: 102
+    height: 119
+    xOffset: 0
+    yOffset: 88
+    xAdvance: 95
+    scale: 1.7
+    name: token_icecream_3
+    hashCode: -1621504129
+    unicode: 0
+    pivot: {x: -53.999996, y: 59.000004}
+    sprite: {fileID: 21300000, guid: de87a2ef25094634893b3ef99cc36e50, type: 2}
+  - id: 26
+    x: 625
+    y: 38
+    width: 112
+    height: 112
+    xOffset: 0
+    yOffset: 77
+    xAdvance: 82
+    scale: 1.7
+    name: special_token
+    hashCode: -1336402459
+    unicode: 0
+    pivot: {x: -56, y: 56}
+    sprite: {fileID: 21300000, guid: 3c932b86258c5524ead8d582eb79eeb7, type: 2}
+  - id: 27
+    x: 158
+    y: 25
+    width: 146
+    height: 145
+    xOffset: 0
+    yOffset: 100
+    xAdvance: 140
+    scale: 1.7
+    name: golden_coin
+    hashCode: -104154433
+    unicode: 0
+    pivot: {x: -75, y: 73}
+    sprite: {fileID: 21300000, guid: a19ad5a2996802c4083847bee89809cf, type: 2}
+  - id: 28
+    x: 1
+    y: 24
+    width: 155
+    height: 146
+    xOffset: 0
+    yOffset: 77
+    xAdvance: 82
+    scale: 1.7
+    name: token_transformation_booster
+    hashCode: 603059864
+    unicode: 0
+    pivot: {x: -81.00001, y: 71}
+    sprite: {fileID: 21300000, guid: 50f65e5d2769ac94a8b2e20d60250dbe, type: 2}
+  - id: 29
+    x: 410
+    y: 1
+    width: 74
+    height: 74
+    xOffset: 6
+    yOffset: 54
+    xAdvance: 82
+    scale: 1.7
+    name: token_cake_1
+    hashCode: -212692666
+    unicode: 0
+    pivot: {x: -37, y: 36}
+    sprite: {fileID: 21300000, guid: fddf996f7a8580743a370863d36643e5, type: 2}
+  fallbackSpriteAssets: []

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dd507ffd0d74f9daef8130ebf1d3ef2, type: 3}
+  m_Name: ShopSoftCurrencyPacksBalancing
+  m_EditorClassIdentifier:
+  sheetName: BalancingData_MinisRun
+  worksheetName: ShopSoftCurrencyPacks
+  dataArray:
+  - id: 0
+    name: shop_coins_pack_small
+    image: shop_sc_small_pack
+    amount: 5000
+    price: 60
+  - id: 1
+    name: shop_coins_pack_medium
+    image: shop_sc_medium_pack
+    amount: 50000
+    price: 500
+  - id: 2
+    name: shop_coins_pack_big
+    image: shop_sc_big_pack
+    amount: 500000
+    price: 4500

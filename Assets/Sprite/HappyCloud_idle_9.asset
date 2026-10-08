@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: HappyCloud_idle_9
+  m_Rect:
+    serializedVersion: 2
+    x: 183.07613
+    y: 406.0761
+    width: 170.84775
+    height: 121.92388
+  m_Offset: {x: -1.0751956, y: -2.4715848}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 120
+  m_Pivot: {x: 0.4937067, y: 0.47972846}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RenderDataKey:
+    1df6d7595dea01648bdaf2c55dbb9d14: 21300018
+  m_AtlasTags: []
+  m_SpriteAtlas: {fileID: 0}
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: 3ad3a04021a45a742bfcc0174ac8ec73, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 21
+      topology: 0
+      baseVertex: 0
+      firstVertex: 0
+      vertexCount: 9
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 080007000600050006000700010006000500040001000500030001000400000001000300020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 9
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 180
+      _typelessdata: 9ab1383f33d5253e000000000000000000000000bcebf93e33e2f9be0000000000000000000000009ab1383f7726bebe0000000000000000000000002252e03e4495fd3e000000000000000000000000ef1ead3e2b53073f000000000000000000000000cd6c50be2b53073f000000000000000000000000efd60fbf33e2f9be000000000000000000000000331b34bf89d9813e000000000000000000000000331b34bfbc6ac2be000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 183.07613
+      y: 406.0761
+      width: 170.84775
+      height: 121.92388
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: -1, y: -1}
+    settingsRaw: 64
+    uvTransform: {x: 120, y: 267.4248, z: 120, w: 464.56647}
+    downscaleMultiplier: 1
+  m_AtlasRD:
+    serializedVersion: 2
+    texture: {fileID: 0}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes: []
+    m_IndexBuffer:
+    m_VertexData:
+      m_CurrentChannels: 0
+      m_VertexCount: 0
+      m_Channels: []
+      m_DataSize: 0
+      _typelessdata:
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 0, y: 0}
+    settingsRaw: 0
+    uvTransform: {x: 0, y: 0, z: 0, w: 0}
+    downscaleMultiplier: 0
+  m_PhysicsShape:
+  - - {x: 0.67979336, y: -0.2880539}
+    - {x: 0.72146, y: -0.1380539}
+    - {x: 0.72146, y: 0.036946107}
+    - {x: 0.6881267, y: 0.120279446}
+    - {x: 0.57979333, y: 0.24527945}
+    - {x: 0.42145997, y: 0.34527946}
+    - {x: 0.29645997, y: 0.51194614}
+    - {x: 0.23812664, y: 0.5286128}
+    - {x: -0.028540041, y: 0.5286128}
+    - {x: -0.16187339, y: 0.44527945}
+    - {x: -0.29520673, y: 0.43694612}
+    - {x: -0.37854007, y: 0.41194612}
+    - {x: -0.6535401, y: 0.15361278}
+    - {x: -0.69520676, y: 0.08694611}
+    - {x: -0.69520676, y: -0.19638723}
+    - {x: -0.5118734, y: -0.3547206}
+    - {x: -0.45354006, y: -0.3547206}
+    - {x: -0.31187338, y: -0.34638724}
+    - {x: -0.22020672, y: -0.4380539}
+    - {x: -0.12020671, y: -0.4797206}
+    - {x: 0.06312663, y: -0.4797206}
+    - {x: 0.23812664, y: -0.42138726}
+    - {x: 0.43812665, y: -0.42972058}
+    - {x: 0.49646, y: -0.42138726}

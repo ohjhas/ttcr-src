@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0472c2315ac05b9c5341eafb68ecbfc6, type: 3}
+  m_Name: OutgameTutorialSteps
+  m_EditorClassIdentifier:
+  tutorialSteps:
+  - {fileID: 11400000, guid: 30f261d85ae9b274580cb83fec15dbde, type: 2}
+  - {fileID: 11400000, guid: 2fc39b3c20fd1c34eae94421b3edc108, type: 2}
+  - {fileID: 11400000, guid: 99a5a802cc1c21b4ca92dc5eee65813d, type: 2}
+  - {fileID: 11400000, guid: 1deaf575bd9978b478d6259a244670b4, type: 2}
+  - {fileID: 11400000, guid: 5733f03558f8ec6469374b4731496d0b, type: 2}
+  - {fileID: 11400000, guid: 826528e263b71c6459bc050d51505beb, type: 2}

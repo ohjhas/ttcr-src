@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c11d1ab9833613c1c9f1f482fc542ce5, type: 3}
+  m_Name: Ben
+  m_EditorClassIdentifier:
+  IngameAssetName: Ben
+  UIAssetName: UIBen
+  UICardAssetName: UICardBen
+  AnimatorsFolderName: BenAnimators
+  CharAnimatorDataList:
+  - Type: 0
+    AnimatorName: UIBenIdle
+    UsageData:
+    - IsDefaultAnim: 1
+      LoadImmediately: 0
+      ScreenType: 0
+    - IsDefaultAnim: 1
+      LoadImmediately: 0
+      ScreenType: 3
+    - IsDefaultAnim: 1
+      LoadImmediately: 0
+      ScreenType: 4
+    - IsDefaultAnim: 1
+      LoadImmediately: 0
+      ScreenType: 5
+  - Type: 3
+    AnimatorName: UIBenEating
+    UsageData:
+    - IsDefaultAnim: 0
+      LoadImmediately: 0
+      ScreenType: 0
+    - IsDefaultAnim: 0
+      LoadImmediately: 0
+      ScreenType: 5
+  - Type: 4
+    AnimatorName: UIBenLookAround
+    UsageData:
+    - IsDefaultAnim: 0
+      LoadImmediately: 0
+      ScreenType: 0
+    - IsDefaultAnim: 0
+      LoadImmediately: 0
+      ScreenType: 5
+  - Type: 7
+    AnimatorName: UIBenWalking
+    UsageData:
+    - IsDefaultAnim: 0
+      LoadImmediately: 0
+      ScreenType: 0
+  - Type: 9
+    AnimatorName: UIBenRunAndDie
+    UsageData:
+    - IsDefaultAnim: 1
+      LoadImmediately: 1
+      ScreenType: 1
+  - Type: 10
+    AnimatorName: UIBenJumpAndWin
+    UsageData:
+    - IsDefaultAnim: 1
+      LoadImmediately: 1
+      ScreenType: 2
+    - IsDefaultAnim: 0
+      LoadImmediately: 1
+      ScreenType: 4
+  - Type: 11
+    AnimatorName: UIBenRunning
+    UsageData:
+    - IsDefaultAnim: 0
+      LoadImmediately: 1
+      ScreenType: 3

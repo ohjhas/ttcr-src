@@ -1,0 +1,26 @@
+public enum MissionType
+{
+	Collect_Coins = 0,
+	Get_Score = 1,
+	Have_Stamina = 2,
+	Destroy_Obstacles = 3,
+	Collect_ScoreJelly = 4,
+	Collect_ScoreIceCream = 5,
+	Collect_ScoreCake = 6,
+	Collect_ScoreFruit = 7,
+	Collect_ScoreCandy = 8,
+	Collect_ScoreTasty = 9,
+	Collect_ScoreJellyMedium = 10,
+	Collect_ScoreIceCreamMedium = 11,
+	Collect_ScoreCakeMedium = 12,
+	Collect_ScoreFruitMedium = 13,
+	Collect_ScoreCandyMedium = 14,
+	Collect_ScoreTastyMedium = 15,
+	Collect_ScoreJellyBig = 16,
+	Collect_ScoreIceCreamBig = 17,
+	Collect_ScoreCakeBig = 18,
+	Collect_ScoreFruitBig = 19,
+	Collect_ScoreCandyBig = 20,
+	Collect_ScoreTastyBig = 21,
+	Collect_CoinsBig = 22
+}

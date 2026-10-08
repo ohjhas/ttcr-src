@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ibaez\\OneDrive\\Documentos\\TTCR\u002B\u002B\\1.1.6BACKUP\\ExportedProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BB7E9B2-DAAC-E6A6-6D4C-F52FF86D00FA}|Assembly-CSharp.csproj|c:\\users\\ibaez\\onedrive\\documentos\\ttcr\u002B\u002B\\1.1.6backup\\exportedproject\\assets\\scripts\\assembly-csharp\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BB7E9B2-DAAC-E6A6-6D4C-F52FF86D00FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assembly-csharp\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\ibaez\\OneDrive\\Documentos\\TTCR\u002B\u002B\\1.1.6BACKUP\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\GameController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assembly-CSharp\\GameController.cs",
+              "ToolTip": "C:\\Users\\ibaez\\OneDrive\\Documentos\\TTCR\u002B\u002B\\1.1.6BACKUP\\ExportedProject\\Assets\\Scripts\\Assembly-CSharp\\GameController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assembly-CSharp\\GameController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T21:48:06.111Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 61724804207875695}
+  - component: {fileID: 114618682377417806}
+  m_Layer: 0
+  m_Name: SpeedChange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 94.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &61724804207875695
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.64, y: 20}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 20}
+  m_EdgeRadius: 0
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87226efc8ecf61fce9b3898fabf4dd4e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Data:
+    AssetName: SkinChange
+    Position: {x: 94.5, y: 0, z: 0}
+    Obstacle:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      Swinging:
+        IsEnabled: 0
+        Anchor: {x: 0, y: 0}
+        StartEndRotation: {x: 0, y: 0}
+        StartThreshold: 0
+        EndThreshold: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Platform:
+      IsEnabled: 0
+      Movable:
+        IsEnabled: 0
+        StartThreshold: 0
+        EndThreshold: 0
+        MoveVector: {x: 0, y: 0}
+      RestableArea:
+        IsEnabled: 0
+        MoveVector: {x: 0, y: 0}
+      Dropable:
+        IsEnabled: 0
+        Delay: 0
+      Shakeable:
+        IsEnabled: 0
+        Interval: 0
+        Strength: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+    Collectible:
+      IsEnabled: 0
+      Type: 0
+      Stamina:
+        IsEnabled: 0
+        Stamina: 0
+      Scoreable:
+        IsEnabled: 0
+        Score: 0
+      Coinable:
+        IsEnabled: 0
+        Coins: 0
+      Floating:
+        IsEnabled: 0
+        Amplitude: 0
+        Speed: 0
+        Offset: 0
+        HasLocalTimer: 0
+      Speed:
+        IsEnabled: 0
+        Speed: 0
+    Trigger:
+      IsEnabled: 1
+      CameraSize:
+        IsEnabled: 0
+        Value: 0
+      KillZone:
+        IsEnabled: 0
+      SkinChange:
+        IsEnabled: 0
+        WorldSuffix: _Dungeon
+      SpeedChange:
+        IsEnabled: 1
+        Speed: 10
+      LevelEnd:
+        IsEnabled: 0
+        DistanceToFinish: 28
+      Tutorial:
+        IsEnabled: 0
+        Step: 0
+        StopTime: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

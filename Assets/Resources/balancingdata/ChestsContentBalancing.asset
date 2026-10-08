@@ -1,0 +1,360 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4088438d8ac30b7ff76c975d053b9436, type: 3}
+  m_Name: ChestsContentBalancing
+  m_EditorClassIdentifier:
+  sheetName: BalancingData_MinisRun
+  worksheetName: ChestsContent
+  dataArray:
+  - chestid: 0
+    grouptype: 0
+    itemtype: 1
+    rarity: 1
+    index: -1
+    probability: 60
+    amountmin: 1
+    amountmax: 5
+  - chestid: 0
+    grouptype: 0
+    itemtype: 1
+    rarity: 2
+    index: -1
+    probability: 5
+    amountmin: 1
+    amountmax: 2
+  - chestid: 0
+    grouptype: 0
+    itemtype: 2
+    rarity: 1
+    index: -1
+    probability: 30
+    amountmin: 1
+    amountmax: 4
+  - chestid: 0
+    grouptype: 0
+    itemtype: 2
+    rarity: 2
+    index: -1
+    probability: 5
+    amountmin: 1
+    amountmax: 2
+  - chestid: 0
+    grouptype: 1
+    itemtype: 0
+    rarity: 0
+    index: 0
+    probability: 100
+    amountmin: 500
+    amountmax: 1500
+  - chestid: 0
+    grouptype: 2
+    itemtype: 0
+    rarity: 0
+    index: 1
+    probability: 100
+    amountmin: 5
+    amountmax: 10
+  - chestid: 1
+    grouptype: 0
+    itemtype: 1
+    rarity: 1
+    index: -1
+    probability: 60
+    amountmin: 1
+    amountmax: 5
+  - chestid: 1
+    grouptype: 0
+    itemtype: 1
+    rarity: 2
+    index: -1
+    probability: 5
+    amountmin: 1
+    amountmax: 2
+  - chestid: 1
+    grouptype: 0
+    itemtype: 2
+    rarity: 1
+    index: -1
+    probability: 30
+    amountmin: 1
+    amountmax: 4
+  - chestid: 1
+    grouptype: 0
+    itemtype: 2
+    rarity: 2
+    index: -1
+    probability: 5
+    amountmin: 1
+    amountmax: 2
+  - chestid: 1
+    grouptype: 1
+    itemtype: 0
+    rarity: 0
+    index: 0
+    probability: 100
+    amountmin: 1000
+    amountmax: 3000
+  - chestid: 1
+    grouptype: 2
+    itemtype: 0
+    rarity: 0
+    index: 1
+    probability: 100
+    amountmin: 5
+    amountmax: 10
+  - chestid: 2
+    grouptype: 0
+    itemtype: 1
+    rarity: 1
+    index: -1
+    probability: 20
+    amountmin: 5
+    amountmax: 10
+  - chestid: 2
+    grouptype: 0
+    itemtype: 1
+    rarity: 2
+    index: -1
+    probability: 30
+    amountmin: 5
+    amountmax: 10
+  - chestid: 2
+    grouptype: 0
+    itemtype: 1
+    rarity: 3
+    index: -1
+    probability: 5
+    amountmin: 1
+    amountmax: 2
+  - chestid: 2
+    grouptype: 0
+    itemtype: 2
+    rarity: 1
+    index: -1
+    probability: 20
+    amountmin: 5
+    amountmax: 10
+  - chestid: 2
+    grouptype: 0
+    itemtype: 2
+    rarity: 2
+    index: -1
+    probability: 30
+    amountmin: 5
+    amountmax: 10
+  - chestid: 2
+    grouptype: 1
+    itemtype: 0
+    rarity: 0
+    index: 0
+    probability: 100
+    amountmin: 2500
+    amountmax: 7500
+  - chestid: 2
+    grouptype: 2
+    itemtype: 0
+    rarity: 0
+    index: 1
+    probability: 100
+    amountmin: 20
+    amountmax: 50
+  - chestid: 3
+    grouptype: 0
+    itemtype: 1
+    rarity: 1
+    index: -1
+    probability: 15
+    amountmin: 10
+    amountmax: 15
+  - chestid: 3
+    grouptype: 0
+    itemtype: 1
+    rarity: 2
+    index: -1
+    probability: 35
+    amountmin: 10
+    amountmax: 15
+  - chestid: 3
+    grouptype: 0
+    itemtype: 1
+    rarity: 3
+    index: -1
+    probability: 10
+    amountmin: 5
+    amountmax: 10
+  - chestid: 3
+    grouptype: 0
+    itemtype: 2
+    rarity: 1
+    index: -1
+    probability: 15
+    amountmin: 10
+    amountmax: 15
+  - chestid: 3
+    grouptype: 0
+    itemtype: 2
+    rarity: 2
+    index: -1
+    probability: 35
+    amountmin: 10
+    amountmax: 15
+  - chestid: 3
+    grouptype: 1
+    itemtype: 0
+    rarity: 0
+    index: 0
+    probability: 100
+    amountmin: 5000
+    amountmax: 15000
+  - chestid: 3
+    grouptype: 2
+    itemtype: 0
+    rarity: 0
+    index: 1
+    probability: 100
+    amountmin: 50
+    amountmax: 100
+  - chestid: 4
+    grouptype: 0
+    itemtype: 1
+    rarity: 1
+    index: -1
+    probability: 5
+    amountmin: 10
+    amountmax: 15
+  - chestid: 4
+    grouptype: 0
+    itemtype: 1
+    rarity: 2
+    index: -1
+    probability: 35
+    amountmin: 10
+    amountmax: 15
+  - chestid: 4
+    grouptype: 0
+    itemtype: 1
+    rarity: 3
+    index: -1
+    probability: 25
+    amountmin: 10
+    amountmax: 15
+  - chestid: 4
+    grouptype: 0
+    itemtype: 2
+    rarity: 1
+    index: -1
+    probability: 5
+    amountmin: 10
+    amountmax: 15
+  - chestid: 4
+    grouptype: 0
+    itemtype: 2
+    rarity: 2
+    index: -1
+    probability: 45
+    amountmin: 10
+    amountmax: 15
+  - chestid: 4
+    grouptype: 1
+    itemtype: 0
+    rarity: 0
+    index: 0
+    probability: 100
+    amountmin: 25000
+    amountmax: 50000
+  - chestid: 4
+    grouptype: 2
+    itemtype: 0
+    rarity: 0
+    index: 1
+    probability: 100
+    amountmin: 50
+    amountmax: 100
+  - chestid: 5
+    grouptype: 0
+    itemtype: 1
+    rarity: 1
+    index: 1
+    probability: 100
+    amountmin: 6
+    amountmax: 6
+  - chestid: 5
+    grouptype: 1
+    itemtype: 0
+    rarity: 0
+    index: 0
+    probability: 100
+    amountmin: 5000
+    amountmax: 5000
+  - chestid: 5
+    grouptype: 2
+    itemtype: 0
+    rarity: 0
+    index: 1
+    probability: 100
+    amountmin: 50
+    amountmax: 50
+  - chestid: 6
+    grouptype: 0
+    itemtype: 2
+    rarity: 1
+    index: 0
+    probability: 100
+    amountmin: 5
+    amountmax: 5
+  - chestid: 6
+    grouptype: 1
+    itemtype: 0
+    rarity: 0
+    index: 0
+    probability: 100
+    amountmin: 5000
+    amountmax: 5000
+  - chestid: 6
+    grouptype: 2
+    itemtype: 0
+    rarity: 0
+    index: 1
+    probability: 100
+    amountmin: 50
+    amountmax: 50
+  - chestid: 7
+    grouptype: 0
+    itemtype: 1
+    rarity: 1
+    index: 0
+    probability: 100
+    amountmin: 10
+    amountmax: 10
+  - chestid: 7
+    grouptype: 0
+    itemtype: 1
+    rarity: 1
+    index: 1
+    probability: 100
+    amountmin: 10
+    amountmax: 10
+  - chestid: 7
+    grouptype: 1
+    itemtype: 0
+    rarity: 0
+    index: 0
+    probability: 100
+    amountmin: 15000
+    amountmax: 15000
+  - chestid: 7
+    grouptype: 2
+    itemtype: 0
+    rarity: 0
+    index: 1
+    probability: 100
+    amountmin: 150
+    amountmax: 150

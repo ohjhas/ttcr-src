@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6775e62fec99daae6e30cafd1f3d7be4, type: 3}
+  m_Name: CharactersStaticBalancing
+  m_EditorClassIdentifier:
+  sheetName: BalancingData_MinisRun
+  worksheetName: CharactersStatic
+  dataArray:
+  - id: 0
+    itemtype: 1
+    name: character_0_name
+    abilitytype: 13
+    rarity: 1
+    unlocked: 1
+    minlevel: 1
+    refilldurations: 900
+    refillcosthc: 25
+    welcomemessage: character_0_welcome
+  - id: 1
+    itemtype: 1
+    name: character_1_name
+    abilitytype: 1
+    rarity: 1
+    unlocked: 0
+    minlevel: 1
+    refilldurations: 900
+    refillcosthc: 25
+    welcomemessage: character_1_welcome
+  - id: 2
+    itemtype: 1
+    name: character_2_name
+    abilitytype: 5
+    rarity: 2
+    unlocked: 0
+    minlevel: 2
+    refilldurations: 900
+    refillcosthc: 25
+    welcomemessage: character_2_welcome
+  - id: 3
+    itemtype: 1
+    name: character_3_name
+    abilitytype: 4
+    rarity: 2
+    unlocked: 0
+    minlevel: 3
+    refilldurations: 900
+    refillcosthc: 25
+    welcomemessage: character_3_welcome
+  - id: 4
+    itemtype: 1
+    name: character_4_name
+    abilitytype: 3
+    rarity: 2
+    unlocked: 0
+    minlevel: 4
+    refilldurations: 900
+    refillcosthc: 25
+    welcomemessage: character_4_welcome
+  - id: 5
+    itemtype: 1
+    name: character_5_name
+    abilitytype: 10
+    rarity: 3
+    unlocked: 0
+    minlevel: 10
+    refilldurations: 900
+    refillcosthc: 25
+    welcomemessage: character_5_welcome
+  - id: 6
+    itemtype: 1
+    name: character_6_name
+    abilitytype: 11
+    rarity: 3
+    unlocked: 0
+    minlevel: 5
+    refilldurations: 900
+    refillcosthc: 25
+    welcomemessage: character_6_welcome
